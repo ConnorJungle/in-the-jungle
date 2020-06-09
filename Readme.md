@@ -992,7 +992,7 @@ Since I was more interested in the possible outcomes of leagues, the baseline xg
 
 Let's take a look at what's most important in predicting a player will play in the NHL in y+1:
 
-![league_xgb_shap_plot.png](attachment:league_xgb_shap_plot.png)
+![league_xgb_shap_plot.png](league_xgb_shap_plot.png)
 
 The feature importance plot of the league prediction model is interesting. Not only can we see which features are most leveraged in the trees, but we can also see how its distribution affects the output (positively/negatively). What stands out:
 * There are some non-linearilies in `draft_pick`
@@ -1197,7 +1197,7 @@ pd.DataFrame([[0.06, 0.48], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM'
 
 
 
-![xgb-scatter-train.png](attachment:xgb-scatter-train.png)
+![xgb-scatter-train.png](xgb-scatter-train.png)
 
 ![lstm-scatter-train.png](lstm-scatter-train.png)
 
@@ -1215,9 +1215,9 @@ pd.DataFrame([[0.06, 0.48], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM'
 
 ```
 
-![scoring_xgb_distplot.png](attachment:scoring_xgb_distplot.png)
+![scoring_xgb_distplot.png](scoring_xgb_distplot.png)
 
-![scoring-lstm-distplot-test.png](attachment:scoring-lstm-distplot-test.png)
+![scoring-lstm-distplot-test.png](scoring-lstm-distplot-test.png)
 
 ## Limitations
 
