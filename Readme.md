@@ -1,6 +1,6 @@
 
 # Artificial Prospect PipeLinE (APPLE): Assisting the analysis of Hockey Prospects using Recurring Neural Networks
-The NHL Draft is the proverbial reset of the NHL calendar. Teams re-evaluate the direction of their organization, make roster decisions, and welcome a new crop of 17-18 year old hockey players. Regardless of the positions team's get to select players, each team's goal is to pick the players most likely to play in the NHL. Most players don't arrive to the NHL untill their early 20s, which leaves teams having to project what a player will be 4-5 years away. This project aims to model a player's development through time given their scoring data and estiamte the possible leagues and performance a player should expect in subsequent seasons. 
+The NHL Draft is the proverbial reset of the NHL calendar. Teams re-evaluate the direction of their organization, make roster decisions, and welcome a new crop of 17-18 year old hockey players. Irrespective of pick position, each team's goal is to pick the players most likely to play in the NHL and to sustain success. Most players don't arrive to the NHL untill their early 20s, which leaves teams having to project what a player will be 4-5 years away. This project aims to model a player's development through time given their scoring data and estiamte the possible leagues and performance a player should expect in subsequent seasons. 
 
 ## Introduction
 
@@ -36,20 +36,7 @@ The main philosophical change to APPLE was trying to evaluate player development
 * Impute remaining features 
 
 
-![player_count_split.png](player_count_split.png)
-
 After selecting a prospect, we take the most recent player season (y) and begin by predicting what leagues that player is most likely to play in next year (y+1). Knowing what league a player plays in we can now estimate player performance based on the current season and league in y+1 to get an estiamte of performance in y+1. This process is executed recursively for every predicted league a player is likely to play and stops when they reach 23. 
-
-
-```python
-import pandas as pd
-
-from data_processing import *
-
-df = pd.read_csv('../nhl_development_model/data/player_season_stats.csv')
-
-X, y,_ = prepare_features(df, 'ppg_y_plus_1')
-```
 
 
 ```python
@@ -629,21 +616,27 @@ X.head(5)
 
 
 
-## Model Architecture
-
-With a NetworkX Directed Graph created from our original player season, we can visualize this as a tree diagram and see what a player's likely player development path will take, and perhaps what the optimal path is to maximize NHL production
-
-
-
 ## Data Processing 
 
 
 ```python
-from full_data_load_ep import *
-# load database credentials and create connection
-user, password, server, database, port = load_db_credentials()
-engine = create_engine(f'postgresql://{user}:{password}@{server}:{port}/{database}')
+players = X.index.droplevel(-1).unique() # get number indices
+n_players = players.shape[0] # number of players in the dataset
+n_players
 ```
+
+
+
+
+    26516
+
+
+
+We begin with ~69,000 player seasons across 24 leagues between 2005-2019. That's 26,516 player batches that will be fed into our LSTM RNN.  We will be padding player careers so the season dimension of the player tensor will always be 7 in length. We're going to split 70/30 for training and test datasets. Which will give us 18561 * 7 = 129,927 observations for training and 55,685 observations for our validation. One thing I noticed in the validation / EDA steps that I want to mention before the modelling section is the distribution of player seasons by league. The count of NCAA player seasons is quite high, representing >16% of the sample, which gives pause. High NCAA representation meant a lot of non-zero predictions for NCAA in the following season even if that transition is seldom observed (ie. Liiga -> NCAA). 
+
+With that said, I wanted to ensure that train / test datasets were stratified by league so that league proportion was consistent between samples. It appears well stratified given the lollipop plot:
+
+![player_count_split.png](player_count_split.png)
 
 Data pre-processing is one of the most important steps, it's where we implement the assumptions we make about our data. Broadly, the steps taken are as followed:
 1. Read-in player and season data from eliteprospects, and join 
@@ -696,7 +689,6 @@ y.set_index(['playerid', 'player', 'season_age'], inplace=True)
 print('--- Generating Player Data ---')
 train_seq, train_target = generate_players(X, y, train_idx)
 test_seq, test_target = generate_players(X, y, test_idx)
-
 ```
 
     --- Reading Data From Database ---
@@ -823,6 +815,18 @@ train_seq[1]
 
 
 
+## Model Training
+
+Now that we've prepared our data to pass to our LSTM, it's time to actually create our model object. Both Keras (a higher level API that sits on top of Tensorflow) and PyTorch are both intuitive Python wrappers of Deep Learning frameworks. The choice to go with PyTorch came down to the flexibility of the api, and its reputation for being more pythonic. This was my first implementation of an RNN so I gravitated towards a more python friendly use-case.
+
+Implementing the model came down to a few steps:
+1. Create a model class that inherents the pytorch module
+2. Initialize the model class with a few hyperparameters
+3. Initialize the activation functions needed
+4. Write a forward function for your model 
+
+The way I wrote the forward function is one of the reasons I chose pytorch for this implementation, since it's quite specific to our use case. For each player that's fed forward, a new hidden and cell state need to be initialized, as you don't want correlations / information between players to persist. We then loop over the 7 player seasons passing one season at a time to the LSTM with hidden state that's being updated after each season. I also added a second activation function in forward because it's possible to return negative values after the linear projection, but we all konw that player points per game cannot be lower than 0. I keep track of which inputs were padded, and only return true predictions so that loss is only calculated on true observations. Once we the model's forward function, we can now train the model.
+
 
 ```python
 import torch.nn as nn
@@ -887,9 +891,15 @@ trainer.train()
     Total Model Training Runtime: 85.00000000 mins
 
 
-## Results
+## APPLE Architecture
 
-With the models trained, we can now start our process for predicting player seasons recursively calculating leagues and performance reaching the base case when a player reaches the 23 year old season. This ensures that each simulated season created acts as its own node. This creates these independent timelines across nodes at each age, and that node is coniditioned on just one node. With that we can calculate the NHL likelihood at age 23 since all the logits sum to 1. This gives us a level of risk, for the reward side of the equation we're calculating the production a player would expect at each NHL season. We get our Expected Value by summing all the products of NHL expected points at age 23 by the Conditional Probability of that node.  
+Now that we've trained our models, each will act as their own component of the higher level APPLE model. APPLE's architecture follows an iterative / recusive structure, that can be traced using directed graph networks. Every simulated season is assigned a node in the network, and because of the "recursive" structure, each node only has one season directed to it. 
+
+We briefly talked about APPLE's architecture in the methodology section. In pseudo-code, the following function simulates a player's developement in till they reach the base case. Intuitively, this essentially creates independent timelines across nodes at each age, and that node is coniditioned on just one node. With that we can calculate the NHL likelihood at age 23 since all the logits sum to 1. This gives us a level of risk, for the reward side of the equation we're calculating the production a player would expect at each NHL season. We get our Expected Value by summing all the products of NHL expected points at age 23 by the Conditional Probability of that node.  
+
+![apple_architecture.png](apple_architecture.png)
+
+## Results
 
 Let's look at an example, Alex Newhook (one of my favourite prospects from last year's draft) is an 19 year old prospect who just finished they Draft + 1 season in the NCAA. We pass this past season into APPLE to simualte his 20 year old season, which produces three possible outcomes {NHL, AHL, NCAA} based on his scoring and other player features. We can then estimate his scoring and the process repeats itself untill he reaches his hypothetical 23 year old season.
 
@@ -921,7 +931,7 @@ player.plot_network_graph()
 
 
 
-![png](Readme_files/Readme_23_1.png)
+![png](Readme_files/Readme_25_1.png)
 
 
 
@@ -941,20 +951,22 @@ player.player_value
 
 
 
-
-
 ```python
-data = pd.read_csv('../nhl_development_model/data/nhl_prospects_expected_values.csv')
+data = pd.read_csv('nhl_prospects_expected_values.csv')
 ```
 
 
 ```python
 import plotly.express as px
 
-fig = px.bar(data, 
+df = data.reset_index()
+
+fig = px.bar(df, 
              y='draft_team',
              x="nhl_expected_value", 
+             color='position',
              hover_data=['player_name'],
+             height=600,
             )
 
 fig.update_layout(title={"text" : "NHL Teams Prospect Pipelines",
@@ -967,14 +979,15 @@ fig.update_layout(title={"text" : "NHL Teams Prospect Pipelines",
                         'showgrid': True},
                   yaxis={'title' : 'Team',
                       'categoryorder':'array', 
-                         'categoryarray':data.groupby('draft_team').nhl_expected_value.sum().sort_values().index},
+                         'categoryarray':df.groupby('draft_team').nhl_expected_value.sum().sort_values().index},
                  plot_bgcolor='rgb(255,255,255)'
                  )
+
 fig.show("svg", height=600, width=900)
 ```
 
 
-![svg](Readme_files/Readme_27_0.svg)
+![svg](Readme_files/Readme_28_0.svg)
 
 
 
@@ -1003,7 +1016,8 @@ The feature importance plot of the league prediction model is interesting. Not o
 
 
 ```python
-pd.DataFrame([[0.86, 0.53], [0.84, 0.57]], columns=['Accuracy', 'Log-Loss'], index=['LSTM', 'xgboost'])
+league_model_train = pd.DataFrame([[0.86, 0.53], [0.84, 0.57]], columns=['Accuracy', 'Log-Loss'], index=['LSTM', 'xgboost'])
+league_model_train
 ```
 
 
@@ -1052,7 +1066,8 @@ pd.DataFrame([[0.86, 0.53], [0.84, 0.57]], columns=['Accuracy', 'Log-Loss'], ind
 
 
 ```python
-pd.DataFrame([[0.80, 1.6], [0.84, 0.58]], columns=['Accuracy', 'Log-Loss'], index=['LSTM', 'xgboost'])
+league_model_test = pd.DataFrame([[0.80, 1.6], [0.84, 0.58]], columns=['Accuracy', 'Log-Loss'], index=['LSTM', 'xgboost'])
+league_model_test
 ```
 
 
@@ -1103,7 +1118,8 @@ pd.DataFrame([[0.80, 1.6], [0.84, 0.58]], columns=['Accuracy', 'Log-Loss'], inde
 
 
 ```python
-pd.DataFrame([[0.033, 0.7], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM', 'xgboost'])
+perf_model_train = pd.DataFrame([[0.033, 0.7], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM', 'xgboost'])
+perf_model_train
 ```
 
 
@@ -1152,7 +1168,8 @@ pd.DataFrame([[0.033, 0.7], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM'
 
 
 ```python
-pd.DataFrame([[0.06, 0.48], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM', 'xgboost'])
+perf_model_test = pd.DataFrame([[0.06, 0.48], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM', 'xgboost'])
+perf_model_test
 ```
 
 
@@ -1197,27 +1214,26 @@ pd.DataFrame([[0.06, 0.48], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM'
 
 
 
+### Model Fit
+
 ![xgb-scatter-train.png](xgb-scatter-train.png)
 
 ![lstm-scatter-train.png](lstm-scatter-train.png)
-
-
-```python
-
-```
 
 ![xgb-scatter-test.png](xgb-scatter-test.png)
 
 ![lstm-scatter-test.png](lstm-scatter-test.png)
 
+### Distribution of Predicted Values
+
+![scoring_xgb_distplot_test.png](scoring_xgb_distplot_test.png)
+
+![scoring-lstm-distplot-test.png](scoring-lstm-distplot-test.png)
+
 
 ```python
 
 ```
-
-![scoring_xgb_distplot.png](scoring_xgb_distplot.png)
-
-![scoring-lstm-distplot-test.png](scoring-lstm-distplot-test.png)
 
 ## Limitations
 
@@ -1226,6 +1242,11 @@ With any model there are strengths and weaknesses. We talked about the elements 
 First, APPLE's shortcomings are consistent with traditional Deep Learning frameworks — the main being overfitting. It's usually hard to decisively beat xgboost in regression problems based on my experience with hockey data (I'd also point to Kaggle competition winners since 2017). Comparing the baseline xgboost and LSTM when predicting scoring performance in y+1, the improvement by MSE and R^2 are conclusive. However, when we evaluate the models on the test set, the baseline xgboost tends to do better in these metrics. But if we look at the distribution of predicted values, the LSTM does tend to fit the grouth truth a lot better. It seems the baseline is tending to be more bias heavy. 
 
 ## Closing Thoughts
+
+
+```python
+import xgboost
+```
 
 
 ```python
