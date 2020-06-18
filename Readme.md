@@ -57,7 +57,6 @@ The main philosophical change to APPLE was trying to evaluate player development
 * Predict player Scoring conditioned on league in y+1
 * Impute remaining features 
 
-
 After selecting a prospect, we take the most recent player season (y) and begin by predicting what leagues that player is most likely to play in next year (y+1). Knowing what league a player plays in we can now estimate player performance based on the current season and league in y+1 to get an estiamte of performance in y+1. This process is executed recursively for every predicted league a player is likely to play and stops when they reach 23. 
 
 
