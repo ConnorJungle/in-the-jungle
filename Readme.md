@@ -11,6 +11,7 @@ That got me thinking.
 Most time series problems using Neural Networks, specifically the RNN architecture, leverages deep learning frameworks like LSTM to encode historic information about the timeseries to aid in prediction. Many examples of pytorch/keras tutorials look at Stock Price prediction. Hockey players are assets for their organizations, I thought the analogue was close enough so here we are.  
 
 The LSTM architecture, put simply, uses sequential data that updates cell states, hidden states, and produces an output. That output is the prediction for that time-step and will be compared against the ground truth in training. The cell and hidden states are updated as sequential data passed through the network. 
+
 ![lstm_architecture.png](lstm_architecture.png)
 
 The analog to our use case is you treat each player as a sequence that begins when they're 17 and ends when they're 23. Each player is initialized with the same hidden, cell state when we begin at year _y_. Then, we iteratively pass input data about the player's league, performance, measurements and other player features. The model produces an output for each time-step, ie. player performance in y+1.
@@ -23,19 +24,19 @@ A project like this is only possible by virtue of hard work that came before it.
 
 The list of prospect models is long and comprehensive and dates back to hockey analytics' infancy. The work of APPLE's predecesors / inspiraitons: 
 
-* PCS (Lawrence, Weissbock, Tanner)
+* [PCS](https://jetsnation.ca/2015/05/26/draft-analytics-unveiling-the-prospect-cohort-success-model) (Lawrence, Weissbock, Tanner)
 
-* SEAL (Hohl)
+* [SEAL](https://hockey-graphs.com/2016/06/15/seal-adjusted-scoring-and-why-it-matters-for-prospects/) (Hohl)
 
-* pGPS (Davies)
+* [pGPS](https://nextgenhockey.ca/2019/06/21/pgps-draft-slot-valuations-for-the-2019-nhl-draft/) (Davies)
 
-* DEV (Speak)
+* [DEV](http://archive.is/2Odvy) (Speak)
 
-* Model Trees for Identifying Exceptional Players in the NHL Draft (Schulte, Liu, Li)
+* [Model Trees for Identifying Exceptional Players in the NHL Draft](https://arxiv.org/pdf/1802.08765.pdf) (Schulte, Liu, Li)
 
-* NHLe (Desjardins / Vollman / Tulsky / Perry / Bader)
+* NHLe ([Desjardins](http://www.behindthenet.ca/projecting_to_nhl.php) / [Vollman](http://www.hockeyabstract.com/testimonials/nhltranslations) / [Tulsky](https://archive.is/h3k9l) / Perry / [Bader](https://hockeyprospecting.com/about/))
 
-* NNHLe (Turtoro)
+* [NNHLe](https://cj-turtoro.shinyapps.io/NNHLe-writeup/) (Turtoro)
 
 Much of the focus on NHL Draft / Prospect work concentrates on the following objectives (and are not mutually exclusive in application):
 1. Scoring Translations
