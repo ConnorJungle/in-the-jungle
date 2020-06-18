@@ -4,29 +4,50 @@ The NHL Draft is the proverbial reset of the NHL calendar. Teams re-evaluate the
 
 ## Introduction
 
-A ton of work has been invested on NHL prospect analysis spanning decades of hockey analytics research. Much of the focus concentrates on the following objectives (and are not mutually exclusive in application):
-1. Scoring Translations
-2. Player Comparables
-3. Optimal Draft Value
-
-In my view, these are the foundational concepts and questions that hockey analysts set out to tackle. APPLE is no different — the goal is to expand on the work that's come before, and offer a different approach that addresses shortcomings like:
-1. Time dependence (Age)
-2. Selection bias
-3. Arbitrary response variable (ie. 200 NHL game cutoff)
-
-I wrote about these caveats as limitations of my prospect model last year, with the introduction of the Probability Peers prospects model (PPer). Unlike its predecssors, pGCS / PCS / DEV, the PPer was a regression model since the data span across more leagues than just the CHL, avoiding some selection bias. In the end, I came away still feeling unsastified having not really addressed issues with the response variable, and taking into consideration that each player season is not indepedent violating assumptions of linear regression. It was just a few weeks later my friend Nicole Fitzgerald (Microsoft, soon to be MILA institute), who works in ML research, proposed these issues could be addressed as an LSTM timeseries problem.
+I wrote about a prospect model last year, with the introduction of the Probability Peers prospects model (PPer). Unlike its predecssors, pGPS / PCS, the PPer was a regression model (similar to DEV). Since the data span across more leagues than just the CHL, I wanted to avoid some selection bias. PPer was most similar to DEV in that it was a binary classification fit on NHL Success (200 GP), with clusters fit using K-means on height / weight / probability of success. In the end, I came away still feeling unsastified having not really addressed the issues with the response variable (arbirary 200 GP cutoff for measure of NHL success), and taking into consideration that each player season is not indepedent — violating a key assumption of linear regression. It was just a few weeks later my friend Nicole Fitzgerald (Microsoft, soon to be MILA institute), who works in ML research, proposed these issues could be addressed as an LSTM timeseries problem.
 
 That got me thinking.
 
 Most time series problems using Neural Networks, specifically the RNN architecture, leverages deep learning frameworks like LSTM to encode historic information about the timeseries to aid in prediction. Many examples of pytorch/keras tutorials look at Stock Price prediction. Hockey players are assets for their organizations, I thought the analogue was close enough so here we are.  
 
-*DISCLAIMER ON RNN LSTM QUICKLY HERE*
+The LSTM architecture, put simply, uses sequential data that updates cell states, hidden states, and produces an output. That output is the prediction for that time-step and will be compared against the ground truth in training. The cell and hidden states are updated as sequential data passed through the network. 
+![lstm_architecture.png](lstm_architecture.png)
 
+The analog to our use case is you treat each player as a sequence that begins when they're 17 and ends when they're 23. Each player is initialized with the same hidden, cell state when we begin at year _y_. Then, we iteratively pass input data about the player's league, performance, measurements and other player features. The model produces an output for each time-step, ie. player performance in y+1.
 
+What this allows us to accomplish is predict any player performance based on their entire past performance history. The goal is for the LSTM architecture to capture time-dependent, complex non-linear patterns as players develop, and to trace their path to NHL success. 
 
 ## Past Work
 
+A project like this is only possible by virtue of hard work that came before it. Many of the core principles remain — such as NHL value, probability of success and league conversion, with differences only at the margins and in execution.
 
+The list of prospect models is long and comprehensive and dates back to hockey analytics' infancy. The work of APPLE's predecesors / inspiraitons: 
+
+* PCS (Lawrence, Weissbock, Tanner)
+
+* SEAL (Hohl)
+
+* pGPS (Davies)
+
+* DEV (Speak)
+
+* Model Trees for Identifying Exceptional Players in the NHL Draft (Schulte, Liu, Li)
+
+* NHLe (Desjardins / Vollman / Tulsky / Perry / Bader)
+
+* NNHLe (Turtoro)
+
+Much of the focus on NHL Draft / Prospect work concentrates on the following objectives (and are not mutually exclusive in application):
+1. Scoring Translations
+2. Player Comparables
+3. Optimal Draft Value
+
+In my view, these are the foundational concepts and questions that hockey analysts set out to tackle. APPLE is no different — the goal is to expand on the work that's come before, and offer a different approach that addresses shortcomings like:
+1. Time dependencies (Age)
+2. Selection bias
+3. Arbitrary response variable (ie. 200 NHL game cutoff)
+
+APPLE draws on the same principles of PCS / DEV in the sense that it is trying to capture in inherent risk / reward of each player's development, however, it strays away from selecting cohorts of players. We're also drawing from concepts of NHLe / NNHLe in that we're trying to estimate league equivalencies of production, albeit in season y+1 not in season y. Lastly, we're no longer using a binary classification on 200 NHL GPs as the threshold for NHL success.
 
 ## Methodology
 
@@ -950,15 +971,13 @@ player.player_value
 
 
 
-
-```python
-data = pd.read_csv('nhl_prospects_expected_values.csv')
-```
+### Team Prospect Pipelines
 
 
 ```python
 import plotly.express as px
 
+data = pd.read_csv('nhl_prospects_expected_values.csv')
 df = data.reset_index()
 
 fig = px.bar(df, 
@@ -990,11 +1009,6 @@ fig.show("svg", height=600, width=900)
 ![svg](Readme_files/Readme_28_0.svg)
 
 
-
-```python
-
-```
-
 ## Model Evaluation
 
 ## League prediction model
@@ -1016,7 +1030,6 @@ The feature importance plot of the league prediction model is interesting. Not o
 
 
 ```python
-league_model_train = pd.DataFrame([[0.86, 0.53], [0.84, 0.57]], columns=['Accuracy', 'Log-Loss'], index=['LSTM', 'xgboost'])
 league_model_train
 ```
 
@@ -1066,7 +1079,6 @@ league_model_train
 
 
 ```python
-league_model_test = pd.DataFrame([[0.80, 1.6], [0.84, 0.58]], columns=['Accuracy', 'Log-Loss'], index=['LSTM', 'xgboost'])
 league_model_test
 ```
 
@@ -1118,7 +1130,6 @@ league_model_test
 
 
 ```python
-perf_model_train = pd.DataFrame([[0.033, 0.7], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM', 'xgboost'])
 perf_model_train
 ```
 
@@ -1168,7 +1179,6 @@ perf_model_train
 
 
 ```python
-perf_model_test = pd.DataFrame([[0.06, 0.48], [0.05, 0.54]], columns=['MSE', 'R^2'], index=['LSTM', 'xgboost'])
 perf_model_test
 ```
 
@@ -1220,9 +1230,13 @@ perf_model_test
 
 ![lstm-scatter-train.png](lstm-scatter-train.png)
 
+The RNN LSTM outperforms the baseline xgboost by quite a large margin in R^2 and MSE in training.  
+
 ![xgb-scatter-test.png](xgb-scatter-test.png)
 
 ![lstm-scatter-test.png](lstm-scatter-test.png)
+
+Baseline xgboost performs slightly better than RNN LSTM in test set results using R^2 and MSE.
 
 ### Distribution of Predicted Values
 
@@ -1230,25 +1244,23 @@ perf_model_test
 
 ![scoring-lstm-distplot-test.png](scoring-lstm-distplot-test.png)
 
-
-```python
-
-```
+Given that out-of-sample results were worse for the RNN LSTM in terms of R^2 and MSE, we can't conclude that it's better than xgboost, but I'm comfortable with the RNN LSTM's results given that the distribution of outputs do fit ground truth more generally than the baseline.
 
 ## Limitations
 
-With any model there are strengths and weaknesses. We talked about the elements that APPLE is trying to address at the onset — focusing on quantitfying Risk and Reward in order to assign a player a time-dependent value. With any modelling problem, there's always trade-off between signal and complexity, in fear of over-engineering the task at hand. 
+With any model there are strengths and weaknesses. At the onset, we stated the elements that APPLE is trying to address — focusing on quantitfying Risk and Reward conditioned on a player's time-dependent performance. With any modelling problem, there's always trade-off between signal and complexity, in fear of over-engineering the task at hand. 
 
-First, APPLE's shortcomings are consistent with traditional Deep Learning frameworks — the main being overfitting. It's usually hard to decisively beat xgboost in regression problems based on my experience with hockey data (I'd also point to Kaggle competition winners since 2017). Comparing the baseline xgboost and LSTM when predicting scoring performance in y+1, the improvement by MSE and R^2 are conclusive. However, when we evaluate the models on the test set, the baseline xgboost tends to do better in these metrics. But if we look at the distribution of predicted values, the LSTM does tend to fit the grouth truth a lot better. It seems the baseline is tending to be more bias heavy. 
+First, APPLE's shortcomings are consistent with traditional Deep Learning frameworks — the main being overfitting. It's usually hard to decisively beat xgboost in regression problems based on my experience with hockey data (I'd also point to Kaggle competition winners since 2017). Comparing the baseline xgboost and LSTM when predicting scoring performance in y+1, the training set improvement by MSE and R^2 are conclusive. However, when we evaluate the models on the test set, the baseline xgboost tends to do better in these metrics. But if we look at the distribution of predicted values, the LSTM does tend to fit the grouth truth a lot better. It seems the baseline is tending to be more bias heavy. Perhaps LSTM isn't a decsive improvement over xgboost, and other model architectures (ie. Transformers, CNN, etc.) may be better suited for the problem. 
+
+Second, there is no measure of uncertainty in APPLE's performance projections. If Alex Newhook plays his 20 year old season in the NHL, the model predicts 0.5 PPG (points per game) but we lack any confidence interval or range of possibilities. This is important because performance projections become inputs to future predictions, meaning outliers can heavily influence predictions downstream.
+
+Third, training neural networks can take a lot of time, resources and proper optimization frameworks. This implementation focused more on developping a model that 1) learns anything 2) outperforms benchmark 3) produces reasonable outputs. There are probably marginal improvements on both the baseline xgboosts models and LSTM models if I threw more computing resources, time and used training optimization techniques. For example, while it's standard to use the ADAM optimizer — which keeps an exponentially decaying average of past gradients, I did not include any dropout or regularization, and I did not implement early stopping. These are all elements that would increase model performance, make predictions more robust, and be less prone to overfitting.
+
+Last, RNNs typically use model output as inputs for the next time-step in training. When predicting player development, we have no choice but to use model outputs as inputs in hypothetical seasons, however we use ground truth performance at each time-step in training. This is a concept called Teacher Forcing, and will most likely lead to better results using ground truth than training using the model outputs as inputs. A balanced approach leveraging both Teacher Forcing and Model Outputs can provide the best of both worlds — where we could choose to use ground truth 50% of the time, and use model outputs the other 50%.
 
 ## Closing Thoughts
 
 
 ```python
 import xgboost
-```
-
-
-```python
-
 ```
