@@ -1,5 +1,5 @@
 # Artificial Prospect PipeLinE (APPLE): Assisting the analysis of hockey prospects using Recurring Neural Networks
-
+by: [Connor Jung](https://twitter.com/ConnorJungle)
 
 ## Introduction
 
