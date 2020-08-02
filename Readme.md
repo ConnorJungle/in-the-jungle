@@ -23,8 +23,6 @@ The list of prospect models is long, comprehensive, and dates back to hockey ana
 
 * NHLe ([Desjardins](http://www.behindthenet.ca/projecting_to_nhl.php) / [Vollman](http://www.hockeyabstract.com/testimonials/nhltranslations) / [Tulsky](https://archive.is/h3k9l) / Perry / [Bader](https://hockeyprospecting.com/about/))
 
-* [Prysanth](https://hockey-graphs.com/2019/07/01/evaluating-nordic-drafting-a-potential-market-inefficiency/) (Prashanth Iyer)
-
 * [NNHLe](https://cj-turtoro.shinyapps.io/NNHLe-writeup/) (Turtoro)
 
 Much of the focus on NHL Draft / Prospect work concentrates on the following objectives (and are not mutually exclusive in application):
