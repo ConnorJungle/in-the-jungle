@@ -1,0 +1,595 @@
+,playerid,date_of_birth,place_of_birth,nation,height,weight,shoots,rights,under_contract,draft_year,draft_round,draft_pick,draft_team,shortname,status,nhl_draft,rankings,catches,draft_year_eligible,load_date,player_name,position,nhl_likelihood,most_likelihood_nhl_node,nhl_expected_value
+0,116244,1999-01-04,"Brig, SUI",Switzerland,186.0,79.0,L,New Jersey Devils,True,2017,1,1,New Jersey Devils,nico-hischier,,,,,2017,2020-06-03,Nico Hischier,F,1.0,3,171.3
+1,310545,2000-04-13,"Trollhättan, SWE",Sweden,189.0,86.0,L,Buffalo Sabres,True,2018,1,1,Buffalo Sabres,rasmus-dahlin,,,,,2018,2020-06-03,Rasmus Dahlin,D,1.0,4,224.5
+2,305432,2001-05-14,"Orlando, FL, USA",USA,179.0,77.0,L,New Jersey Devils,True,2019,1,1,New Jersey Devils,jack-hughes,,,,,2019,2020-06-03,Jack Hughes,F,1.0,5,166.5
+3,201664,1999-02-16,"Peterborough, ON, CAN",Canada,185.0,91.0,R,Florida Panthers,True,2017,1,10,Florida Panthers,owen-tippett,,,,,2017,2020-06-03,Owen Tippett,F,0.79,4,60.9
+4,512832,2001-06-24,"Moskva, RUS",Russia,185.0,87.0,L,Vancouver Canucks,False,2019,1,10,Vancouver Canucks,vasili-podkolzin,,,,,2019,2020-06-03,Vasili Podkolzin,F,0.67,24,170.1
+5,300591,1999-10-20,"Oakville, ON, CAN",Canada,191.0,88.0,R,Edmonton Oilers,True,2018,1,10,Edmonton Oilers,evan-bouchard,,,,,2018,2020-06-03,Evan Bouchard,D,0.78,4,71.0
+6,232703,1998-06-07,"Woodbridge, ON, CAN",Canada,175.0,83.0,L,Montréal Canadiens,True,2016,4,100,Montréal Canadiens,victor-mete,,,,,2016,2020-06-03,Victor Mete,D,0.75,2,16.6
+7,272376,2000-05-31,"Tabor, CZE",Czech Rep.,183.0,90.0,L,Edmonton Oilers,False,2019,4,100,Edmonton Oilers,matej-blumel,,,,,2018,2020-06-03,Matej Blümel,F,0.02,22,2.7
+8,265424,1999-01-14,"Rødovre, DEN",Denmark,200.0,93.0,L,Detroit Red Wings,False,2017,4,100,Detroit Red Wings,malte-setkov,,,,,2017,2020-06-03,Malte Setkov,D,0.13,6,27.8
+9,319554,2000-01-26,"Pontresina, SUI",Switzerland,186.0,86.0,L,,,2018,4,101,New York Rangers,nico-gross,,,,,2018,2020-06-03,Nico Gross,D,0.2,17,30.4
+10,249597,1998-02-10,"Stratford, ON, CAN",Canada,196.0,106.0,L,,,2016,4,101,Toronto Maple Leafs,keaton-middleton,,,,,2016,2020-06-03,Keaton Middleton,D,0.09,3,16.0
+11,297961,1999-04-18,"Kanata, ON, CAN",Canada,195.0,83.0,R,,,2017,4,101,Dallas Stars,liam-hawel,,,,,2017,2020-06-03,Liam Hawel,F,0.16,6,27.1
+12,445218,2001-03-12,"Southborough, MA, USA",USA,188.0,88.0,L,Anaheim Ducks,False,2019,4,101,Anaheim Ducks,henry-thrun,,,,,2019,2020-06-03,Henry Thrun,D,0.27,22,41.0
+13,262799,1998-01-22,"Ashland, OR, USA",USA,193.0,96.0,L,San Jose Sharks,False,2018,4,102,San Jose Sharks,jasper-weatherby,,,,,2016,2020-06-03,Jasper Weatherby,F,0.02,4,7.5
+14,269301,1999-04-04,"Prior Lake, MN, USA",USA,188.0,93.0,R,San Jose Sharks,False,2017,4,102,San Jose Sharks,scott-reedy,,,,,2017,2020-06-03,Scott Reedy,F,0.14,7,44.2
+15,418350,2001-07-18,"London, ON, CAN",Canada,185.0,80.0,L,Philadelphia Flyers,False,2019,4,103,Philadelphia Flyers,mason-millman,,,,,2019,2020-06-03,Mason Millman,D,0.28,22,55.7
+16,201512,1999-05-25,"Roseville, MN, USA",USA,183.0,89.0,L,Los Angeles Kings,True,2017,4,103,Los Angeles Kings,mikey-anderson,,,,,2017,2020-06-03,Mikey Anderson,D,0.1,6,20.9
+17,283915,2000-02-28,"Woodridge, IL, USA",USA                                                                                             /  Czech Rep.,180.0,90.0,L,New York Islanders,False,2018,4,103,New York Islanders,jacob-pivonka,,,,,2018,2020-06-03,Jacob Pivonka,F,0.1,11,22.5
+18,332303,2000-06-15,"Espoo, FIN",Finland,187.0,86.0,L,Carolina Hurricanes,False,2018,4,104,Carolina Hurricanes,lenni-killinen,,,,,2018,2020-06-03,Lenni Killinen,F,0.03,14,15.6
+19,290470,2001-05-27,"Havlickuv Brod, CZE",Czech Rep.,191.0,87.0,R,Chicago Blackhawks,True,2019,4,105,Chicago Blackhawks,michal-teply,,,,,2019,2020-06-03,Michal Teplý,F,0.32,19,79.4
+20,283531,1999-05-11,"Kirkkonummi, FIN",Finland,188.0,92.0,L,Winnipeg Jets,False,2017,4,105,Winnipeg Jets,santeri-virtanen,,,,,2017,2020-06-03,Santeri Virtanen,F,0.02,7,22.9
+21,341691,1999-11-19,"Zvolen, SVK",Slovakia,188.0,83.0,L,Calgary Flames,True,2018,4,105,Calgary Flames,martin-pospisil,,,,,2018,2020-06-03,Martin Pospisil,F,0.17,5,34.3
+22,351462,2000-03-06,"Oakville, ON, CAN",Canada,204.0,113.0,L,,,2018,4,106,Dallas Stars,curtis-douglas,,,,,2018,2020-06-03,Curtis Douglas,F,0.11,12,26.1
+23,268417,1999-01-06,"Mississauga, ON, CAN",Canada,193.0,93.0,L,Philadelphia Flyers,True,2017,4,106,Philadelphia Flyers,matthew-strome,,,,,2017,2020-06-03,Matthew Strome,F,0.06,5,15.3
+24,299029,1999-09-17,"North Vancouver, BC, CAN",Canada,183.0,91.0,L,Florida Panthers,False,2019,4,106,Florida Panthers,carter-berger,,,,,2018,2020-06-03,Carter Berger,D,0.03,6,13.7
+25,395123,2000-08-16,"Yaroslavl, RUS",Russia,180.0,86.0,R,Arizona Coyotes,False,2019,4,107,Arizona Coyotes,alexander-daryin,,,,,2018,2020-06-03,Alexander Daryin,F,0.16,26,46.8
+26,212632,1998-06-12,"Luleå, SWE",Sweden,189.0,86.0,L,,,2016,4,107,Detroit Red Wings,alfons-malmstrom,,,,,2016,2020-06-03,Alfons Malmström,D,0.05,20,1.8
+27,313615,1999-02-10,"Brest, BLR",Belarus,183.0,84.0,L,Philadelphia Flyers,True,2017,4,107,Philadelphia Flyers,maxim-sushko,,,,,2017,2020-06-03,Maxim Sushko,F,0.1,5,24.7
+28,201670,1999-01-06,"North York, ON, CAN",Canada,183.0,87.0,L,,,2017,4,108,Arizona Coyotes,noel-hoefenmayer,,,,,2017,2020-06-03,Noel Hoefenmayer,D,0.14,5,32.2
+29,354063,2000-03-24,"Pittsburgh, PA, USA",USA,178.0,83.0,L,Calgary Flames,False,2018,4,108,Calgary Flames,demetrios-koumontzis,,,,,2018,2020-06-03,Demetrios Koumontzis,F,0.14,11,30.7
+30,482887,2001-01-22,"Magnitogorsk, RUS",Russia,188.0,84.0,R,San Jose Sharks,False,2019,4,108,San Jose Sharks,yegor-spiridonov,,,,,2019,2020-06-03,Yegor Spiridonov,F,0.05,73,14.3
+31,242658,1998-07-04,"Kåge, SWE",Sweden,192.0,90.0,L,,,2016,4,108,Nashville Predators,hardy-haman-aktell,,,,,2016,2020-06-03,Hardy Häman Aktell,D,0.0,1,12.4
+32,201481,1999-10-11,"Basking Ridge, NJ, USA",USA,175.0,77.0,L,Nashville Predators,False,2019,4,109,Nashville Predators,marc-del-gaizo,,,,,2018,2020-06-03,Marc Del Gaizo,D,0.16,7,41.8
+33,267790,1998-04-16,"Guelph, ON, CAN",Canada,185.0,94.0,L,Philadelphia Flyers,True,2016,4,109,Philadelphia Flyers,connor-bunnaman,,,,,2016,2020-06-03,Connor Bunnaman,F,0.06,3,35.3
+34,355485,2000-01-03,"Raleigh, NC, USA",USA,178.0,72.0,L,Colorado Avalanche,False,2018,4,109,Colorado Avalanche,tyler-weiss,,,,,2018,2020-06-03,Tyler Weiss,F,0.09,14,39.7
+35,228366,1999-05-11,"Bratislava, SVK",Slovakia,194.0,92.0,L,Calgary Flames,True,2017,4,109,Calgary Flames,adam-ruzicka,,,,,2017,2020-06-03,Adam Ruzicka,F,0.2,5,39.6
+36,241370,2000-06-13,"Yarmouth, ME, USA",USA                                                                                             /  Sweden,180.0,85.0,R,New York Islanders,True,2018,1,11,New York Islanders,oliver-wahlstrom,,,,,2018,2020-06-03,Oliver Wahlstrom,F,0.8,9,95.9
+37,286867,1999-08-16,"Kingston, ON, CAN",Canada,191.0,91.0,R,Los Angeles Kings,True,2017,1,11,Los Angeles Kings,gabriel-vilardi,,,,,2017,2020-06-03,Gabriel Vilardi,F,0.73,4,59.6
+38,344555,2001-02-26,"Skutskär, SWE",Sweden,184.0,89.0,R,Arizona Coyotes,True,2019,1,11,Arizona Coyotes,victor-soderstrom,,,,,2019,2020-06-03,Victor Söderström,D,0.85,24,133.8
+39,335702,2000-01-06,"Mercier, QC, CAN",Canada,191.0,92.0,L,,,2018,4,110,New Jersey Devils,xavier-bernard,,,,,2018,2020-06-03,Xavier Bernard,D,0.16,12,25.4
+40,381262,2001-05-19,"Stockholm, SWE",Sweden                                                                                             /  USA,186.0,78.0,L,Dallas Stars,False,2019,4,111,Dallas Stars,samuel-sjolund,,,,,2019,2020-06-03,Samuel Sjölund,D,0.09,73,29.3
+41,271580,1999-12-21,"Hannover, GER",Czech Rep.,201.0,104.0,L,Nashville Predators,False,2018,4,111,Nashville Predators,jachym-kondelik,,,,,2018,2020-06-03,Jáchym Kondelík,F,0.13,7,36.4
+42,359531,2001-04-29,"Pinckney, MI, USA",USA,191.0,79.0,R,New York Rangers,False,2019,4,112,New York Rangers,hunter-skinner,,,,,2019,2020-06-03,Hunter Skinner,D,0.28,25,51.7
+43,300076,1999-07-22,"Manhattan Beach, CA, USA",USA,191.0,90.0,R,Philadelphia Flyers,False,2018,4,112,Philadelphia Flyers,john-st.-ivany,,,,,2017,2020-06-03,John St. Ivany,D,0.16,7,43.5
+44,312825,1999-06-25,"Moskva, RUS",Russia,191.0,91.0,L,St. Louis Blues,True,2017,4,113,St. Louis Blues,alexei-toropchenko,,,,,2017,2020-06-03,Alexei Toropchenko,F,0.08,5,24.2
+45,348180,2000-06-15,"Parry Sound, ON, CAN",Canada,174.0,84.0,R,Los Angeles Kings,True,2018,4,113,Los Angeles Kings,aidan-dudas,,,,,2018,2020-06-03,Aidan Dudas,F,0.22,12,42.7
+46,395081,2001-04-28,"Mikkeli, FIN",Finland,193.0,92.0,L,Winnipeg Jets,False,2019,4,113,Winnipeg Jets,henri-nikkanen,,,,,2019,2020-06-03,Henri Nikkanen,F,0.06,67,12.5
+47,450012,2000-09-10,"Angarsk, RUS",Russia,192.0,86.0,L,Columbus Blue Jackets,False,2019,4,114,Columbus Blue Jackets,dmitri-voronkov,,,,,2018,2020-06-03,Dmitri Voronkov,F,0.06,20,13.4
+48,252469,1998-03-09,"Peterborough, ON, CAN",Canada                                                                                             /  USA,185.0,89.0,L,Florida Panthers,True,2016,4,114,Florida Panthers,riley-stillman,,,,,2016,2020-06-03,Riley Stillman,D,0.63,2,39.5
+49,272770,1999-02-11,"Praha, CZE",Czech Rep.,195.0,93.0,L,Edmonton Oilers,True,2017,4,115,Edmonton Oilers,ostap-safin,,,,,2017,2020-06-03,Ostap Safin,F,0.24,12,37.2
+50,284097,1999-11-16,"Canton, MI, USA",USA,183.0,90.0,L,Vegas Golden Knights,True,2018,4,115,Vegas Golden Knights,paul-cotter,,,,,2018,2020-06-03,Paul Cotter,F,0.17,5,43.4
+51,514653,2001-03-26,"Moskva, RUS",Russia,180.0,73.0,L,Toronto Maple Leafs,True,2019,4,115,Toronto Maple Leafs,mikhail-abramov,,,,,2019,2020-06-03,Mikhail Abramov,F,0.32,25,112.5
+52,385539,2001-02-19,"Stockholm, SWE",Sweden,184.0,84.0,L,Calgary Flames,False,2019,4,116,Calgary Flames,lucas-feuk,,,,,2019,2020-06-03,Lucas Feuk,F,0.06,75,24.1
+53,363892,2000-09-13,"Elk River, MN, USA",USA,185.0,82.0,R,Anaheim Ducks,False,2018,4,116,Anaheim Ducks,jack-perbix,,,,,2018,2020-06-03,Jack Perbix,F,0.03,10,9.1
+54,273632,1999-09-05,"Calgary, AB, CAN",Canada,188.0,87.0,L,Minnesota Wild,False,2017,4,116,Minnesota Wild,bryce-misley,,,,,2017,2020-06-03,Bryce Misley,F,0.01,7,2.3
+55,517832,2001-08-07,"Yekaterinburg, RUS",Russia,176.0,76.0,L,Nashville Predators,False,2019,4,117,Nashville Predators,semyon-chistyakov,,,,,2019,2020-06-03,Semyon Chistyakov,D,0.07,57,27.5
+56,313359,1999-06-01,"Nyköping, SWE",Sweden,179.0,82.0,R,Columbus Blue Jackets,True,2017,4,117,Columbus Blue Jackets,emil-bemstrom,,,,,2017,2020-06-03,Emil Bemström,F,0.76,4,47.1
+57,345052,2000-07-03,"Malmö, SWE",Sweden,186.0,78.0,L,Buffalo Sabres,False,2018,4,117,Buffalo Sabres,linus-cronholm,,,,,2018,2020-06-03,Linus Cronholm,D,0.02,17,1.9
+58,290196,2001-01-09,"Clarence Center, NY, USA",USA,185.0,90.0,R,New Jersey Devils,False,2019,4,118,New Jersey Devils,case-mccarthy,,,,,2019,2020-06-03,Case McCarthy,D,0.14,19,20.3
+59,201660,1999-03-21,"Port Perry, ON, CAN",Canada,183.0,88.0,L,Los Angeles Kings,True,2017,4,118,Los Angeles Kings,markus-phillips,,,,,2017,2020-06-03,Markus Phillips,D,0.09,6,4.9
+60,285300,2000-04-26,"Chagrin Falls, OH, USA",USA                                                                                             /  Canada,191.0,89.0,R,Boston Bruins,False,2018,4,119,Boston Bruins,curtis-hall,,,,,2018,2020-06-03,Curtis Hall,F,0.29,16,59.7
+61,249738,1998-08-23,"Helsinki, FIN",Finland,187.0,91.0,R,Chicago Blackhawks,False,2017,4,119,Chicago Blackhawks,roope-laavainen,,,,,2016,2020-06-03,Roope Laavainen,D,0.0,4,19.1
+62,332966,2000-11-14,"Kuopio, FIN",Finland,177.0,77.0,L,Los Angeles Kings,False,2019,4,119,Los Angeles Kings,kim-nousiainen,,,,,2019,2020-06-03,Kim Nousiainen,D,0.02,13,11.7
+63,275797,2000-01-07,"Summerside, PE, CAN",Canada,193.0,83.0,R,New York Islanders,True,2018,1,12,New York Islanders,noah-dobson,,,,,2018,2020-06-03,Noah Dobson,D,0.92,7,126.1
+64,375501,2001-04-05,"Millis, MA, USA",USA,188.0,87.0,L,Minnesota Wild,False,2019,1,12,Minnesota Wild,matthew-boldy,,,,,2019,2020-06-03,Matthew Boldy,F,0.45,25,53.4
+65,237071,1999-01-15,"Nove Mesto na Morave, CZE",Czech Rep.,188.0,86.0,R,Carolina Hurricanes,True,2017,1,12,Carolina Hurricanes,martin-necas,,,,,2017,2020-06-03,Martin Necas,F,1.0,3,77.3
+66,274212,1999-02-13,"Stans, SUI",Switzerland,193.0,91.0,L,Washington Capitals,True,2017,4,120,Washington Capitals,tobias-geisser,,,,,2017,2020-06-03,Tobias Geisser,D,0.0,5,0.0
+67,279238,1999-10-12,"Davos, SUI",Switzerland                                                                                             /  Russia,183.0,87.0,L,Chicago Blackhawks,True,2018,4,120,Chicago Blackhawks,philipp-kurashev,,,,,2018,2020-06-03,Philipp Kurashev,F,0.3,6,40.4
+68,281733,2000-04-19,"Calgary, AB, CAN",Canada,185.0,88.0,R,Tampa Bay Lightning,False,2019,4,120,Tampa Bay Lightning,maxwell-crozier,,,,,2018,2020-06-03,Maxwell Crozier,D,0.18,11,34.4
+69,233565,1998-06-18,"Chicago, IL, USA",USA,188.0,80.0,R,Tampa Bay Lightning,False,2018,4,121,Tampa Bay Lightning,alexander-green,,,,,2016,2020-06-03,Alexander Green,D,0.03,4,13.1
+70,395512,2001-06-22,"Jääli, FIN",Finland,179.0,73.0,R,Carolina Hurricanes,False,2019,4,121,Carolina Hurricanes,tuukka-tieksola,,,,,2019,2020-06-03,Tuukka Tieksola,F,0.03,60,23.0
+71,161063,1999-03-22,"Calgary, AB, CAN",Canada,180.0,81.0,R,,,2017,4,122,Anaheim Ducks,kyle-olson,,,,,2017,2020-06-03,Kyle Olson,F,0.38,5,72.2
+72,418534,2001-03-20,"Whitby, ON, CAN",Canada,188.0,95.0,L,Vancouver Canucks,False,2019,4,122,Vancouver Canucks,ethan-keppen,,,,,2019,2020-06-03,Ethan Keppen,F,0.22,20,70.5
+73,223844,1999-11-06,"Kysucke Nove Mesto, SVK",Slovakia,182.0,87.0,L,,,2018,4,122,Calgary Flames,milos-roman,,,,,2018,2020-06-03,Milos Roman,F,0.11,6,11.7
+74,396630,2001-06-27,"Laitila, FIN",Finland,180.0,85.0,L,Chicago Blackhawks,False,2019,4,123,Chicago Blackhawks,antti-saarela,,,,,2019,2020-06-03,Antti Saarela,F,0.02,21,18.9
+75,431145,1999-09-15,"West Salem, WI, USA",USA,180.0,80.0,L,Montréal Canadiens,False,2018,4,123,Montréal Canadiens,jack-gorniak,,,,,2017,2020-06-03,Jack Gorniak,F,0.1,6,39.2
+76,322627,1998-04-20,"Salekhard, RUS",Russia,187.0,93.0,L,Toronto Maple Leafs,False,2017,4,124,Toronto Maple Leafs,vladislav-kara,,,,,2016,2020-06-03,Vladislav Kara,F,0.01,4,10.4
+77,201476,1999-06-04,"Slate Hill, NY, USA",USA,175.0,73.0,L,Toronto Maple Leafs,False,2019,4,124,Toronto Maple Leafs,nicholas-abruzzese,,,,,2017,2020-06-03,Nicholas Abruzzese,F,0.2,7,69.7
+78,300828,1998-01-08,"Roseville, MN, USA",USA,183.0,82.0,L,,,2016,5,124,Montréal Canadiens,casey-staum,,,,,2016,2020-06-03,Casey Staum,D,0.0,3,13.4
+79,312234,1998-07-10,"Magnitogorsk, RUS",Russia,185.0,87.0,L,,,2017,5,125,Colorado Avalanche,igor-shvyryov,,,,,2016,2020-06-03,Igor Shvyryov,F,0.04,3,24.9
+80,383305,2000-06-19,"Jokioinen, FIN",Finland,186.0,92.0,R,Buffalo Sabres,False,2018,5,125,Buffalo Sabres,miska-kukkonen,,,,,2018,2020-06-03,Miska Kukkonen,D,0.03,13,10.2
+81,276474,1999-03-11,"Phoenix, AZ, USA",USA                                                                                             /  Canada,191.0,100.0,R,Ottawa Senators,True,2019,5,125,Ottawa Senators,mark-kastelic,,,,,2017,2020-06-03,Mark Kastelic,F,0.11,6,20.1
+82,201687,1999-10-02,"North Vancouver, BC, CAN",Canada,180.0,82.0,L,Ottawa Senators,False,2018,5,126,Ottawa Senators,angus-crookshank,,,,,2018,2020-06-03,Angus Crookshank,F,0.04,6,21.3
+83,291902,1998-01-02,"Grand Rapids, MN, USA",USA,193.0,87.0,L,Calgary Flames,False,2016,5,126,Calgary Flames,mitchell-mattson,,,,,2016,2020-06-03,Mitchell Mattson,F,0.0,4,4.6
+84,350368,1998-12-18,"Green Bay, WI, USA",USA,188.0,91.0,L,Arizona Coyotes,False,2017,5,126,Arizona Coyotes,michael-karow,,,,,2017,2020-06-03,Michael Karow,D,0.01,4,13.3
+85,300751,2000-11-22,"Gloucester, ON, CAN",Canada,190.0,90.0,L,Montréal Canadiens,False,2019,5,126,Montréal Canadiens,jacob-leguerrier,,,,,2019,2020-06-03,Jacob LeGuerrier,D,0.11,17,17.3
+86,290074,1999-08-18,"Ängelholm, SWE",Sweden,185.0,78.0,L,Vegas Golden Knights,True,2017,5,127,Vegas Golden Knights,lucas-elvenes,,,,,2017,2020-06-03,Lucas Elvenes,F,0.22,6,38.1
+87,199912,1997-09-18,"Brandon, MB, CAN",Canada,187.0,85.0,L,,,2016,5,127,Winnipeg Jets,jordy-stallard,,,,,2016,2020-06-03,Jordy Stallard,F,0.21,5,48.8
+88,300071,1999-11-02,"Everett, WA, USA",USA,183.0,86.0,R,Philadelphia Flyers,True,2018,5,127,Philadelphia Flyers,wyatte-wylie,,,,,2018,2020-06-03,Wyatte Wylie,D,0.1,6,13.2
+89,286578,2000-04-24,"Estevan, SK, CAN",Canada,178.0,77.0,L,,,2018,5,128,Montréal Canadiens,cole-fonstad,,,,,2018,2020-06-03,Cole Fonstad,F,0.16,14,47.7
+90,131215,1998-01-07,"Sylvan Lake, AB, CAN",Canada,178.0,85.0,L,Arizona Coyotes,True,2017,5,128,Arizona Coyotes,tyler-steenbergen,,,,,2016,2020-06-03,Tyler Steenbergen,F,0.07,3,24.8
+91,245573,1999-02-06,"Kitimat, BC, CAN",Canada,180.0,75.0,L,Pittsburgh Penguins,True,2018,5,129,Pittsburgh Penguins,justin-almeida,,,,,2017,2020-06-03,Justin Almeida,F,0.19,12,51.9
+92,519772,2001-03-15,"Krasnoyarsk, RUS",Russia,178.0,71.0,L,New Jersey Devils,False,2019,5,129,New Jersey Devils,arseni-gritsyuk,,,,,2019,2020-06-03,Arseni Gritsyuk,F,0.04,51,27.4
+93,300436,1999-08-10,"London, ON, CAN",Canada,180.0,83.0,R,Montréal Canadiens,True,2017,1,13,Vegas Golden Knights,nick-suzuki,,,,,2017,2020-06-03,Nick Suzuki,F,1.0,3,94.5
+94,399353,2000-07-21,"Toronto, ON, CAN",Canada,185.0,86.0,R,Dallas Stars,True,2018,1,13,Dallas Stars,ty-dellandrea,,,,,2018,2020-06-03,Ty Dellandrea,F,0.87,7,124.7
+95,355654,2000-04-27,"Kokkola, FIN",Finland,180.0,78.0,L,Vancouver Canucks,False,2018,5,130,Vancouver Canucks,toni-utunen,,,,,2018,2020-06-03,Toni Utunen,D,0.03,13,1.0
+96,347570,2001-01-24,"Mikkeli, FIN",Finland,175.0,80.0,L,New York Rangers,False,2019,5,130,New York Rangers,leevi-aaltonen,,,,,2019,2020-06-03,Leevi Aaltonen,F,0.02,23,22.4
+97,284907,1999-04-10,"Québec, QC, CAN",Canada,185.0,88.0,L,,,2017,5,130,St. Louis Blues,david-noel,,,,,2017,2020-06-03,David Noël,D,0.13,6,18.3
+98,297963,1999-08-23,"Ottawa, ON, CAN",Canada,188.0,90.0,R,,,2017,5,131,Detroit Red Wings,cole-fraser,,,,,2017,2020-06-03,Cole Fraser,D,0.17,12,35.2
+99,283918,2000-01-04,"Mequon, WI, USA",USA,178.0,81.0,L,Nashville Predators,False,2018,5,131,Nashville Predators,spencer-stastney,,,,,2018,2020-06-03,Spencer Stastney,D,0.08,10,24.4
+100,313350,1999-07-19,"Lidköping, SWE",Sweden,186.0,82.0,L,Dallas Stars,False,2017,5,132,Dallas Stars,jacob-peterson,,,,,2017,2020-06-03,Jacob Peterson,F,0.09,10,28.1
+101,285894,1999-09-12,"Tampere, FIN",Finland,182.0,83.0,R,New York Rangers,False,2018,5,132,New York Rangers,lauri-pajuniemi,,,,,2017,2020-06-03,Lauri Pajuniemi,F,0.16,10,38.0
+102,363897,2000-12-25,"Maple Grove, MN, USA",USA,178.0,88.0,R,Anaheim Ducks,False,2019,5,132,Anaheim Ducks,trevor-janicke,,,,,2019,2020-06-03,Trevor Janicke,F,0.07,11,24.1
+103,289457,2000-02-04,"Regina, SK, CAN",Canada,185.0,82.0,L,Vancouver Canucks,False,2019,5,133,Vancouver Canucks,carson-focht,,,,,2018,2020-06-03,Carson Focht,F,0.17,13,63.9
+104,241387,2000-03-06,"Blainville, QC, CAN",Canada,183.0,77.0,L,,,2018,5,133,Montréal Canadiens,samuel-houde,,,,,2018,2020-06-03,Samuel Houde,F,0.25,14,68.3
+105,201486,1999-05-06,"Barrington, IL, USA",USA,188.0,88.0,L,Florida Panthers,False,2017,5,133,Florida Panthers,tyler-inamoto,,,,,2017,2020-06-03,Tyler Inamoto,D,0.01,6,8.3
+106,284094,2000-08-11,"Jackson, MI, USA",USA,185.0,88.0,L,New York Islanders,True,2018,5,134,New York Islanders,blade-jenkins,,,,,2018,2020-06-03,Blade Jenkins,F,0.29,12,52.5
+107,352089,2001-03-18,"Sheffield, GBR",Canada,180.0,84.0,L,Winnipeg Jets,False,2019,5,134,Winnipeg Jets,harrison-blaisdell,,,,,2019,2020-06-03,Harrison Blaisdell,F,0.08,22,38.4
+108,273154,1999-03-26,"Saline, MI, USA",USA,175.0,70.0,L,Vegas Golden Knights,False,2018,5,135,Vegas Golden Knights,brandon-kruse,,,,,2017,2020-06-03,Brandon Kruse,F,0.13,10,29.6
+109,279893,1998-02-25,"Tampere, FIN",Finland,195.0,87.0,L,Boston Bruins,True,2016,5,135,Boston Bruins,joona-koppanen,,,,,2016,2020-06-03,Joona Koppanen,F,0.06,3,16.0
+110,243313,1999-05-31,"Berlin, GER",Germany,186.0,90.0,R,Winnipeg Jets,True,2017,5,136,Winnipeg Jets,leon-gawanke,,,,,2017,2020-06-03,Leon Gawanke,D,0.24,7,32.0
+111,351688,2001-06-26,"Vancouver, BC, CAN",Canada,185.0,80.0,R,Florida Panthers,False,2019,5,136,Florida Panthers,henrik-rybinski,,,,,2019,2020-06-03,Henrik Rybinski,F,0.25,22,97.1
+112,201517,1999-02-05,"Stillwater, MN, USA",USA,188.0,86.0,L,Philadelphia Flyers,False,2017,5,137,Philadelphia Flyers,noah-cates,,,,,2017,2020-06-03,Noah Cates,F,0.07,10,20.2
+113,315962,2001-05-17,"Enid, OK, USA",USA,183.0,87.0,R,Florida Panthers,False,2019,5,137,Florida Panthers,owen-lindmark,,,,,2019,2020-06-03,Owen Lindmark,F,0.14,22,32.3
+114,305431,2000-03-20,"Mississauga, ON, CAN",Canada,178.0,78.0,R,Dallas Stars,True,2018,5,137,Dallas Stars,riley-damiani,,,,,2018,2020-06-03,Riley Damiani,F,0.24,14,65.8
+115,268675,1998-04-11,"Markham, ON, CAN",Canada,190.0,93.0,R,,,2016,5,137,Detroit Red Wings,jordan-sambrook,,,,,2016,2020-06-03,Jordan Sambrook,D,0.11,6,9.9
+116,268925,1998-08-06,"Huntington Woods, MI, USA",USA                                                                                             /  Canada,183.0,85.0,R,Los Angeles Kings,True,2017,5,138,Los Angeles Kings,drake-rymsha,,,,,2016,2020-06-03,Drake Rymsha,F,0.02,3,18.5
+117,229608,1998-07-29,"New Canaan, CT, USA",USA,171.0,68.0,L,Nashville Predators,True,2016,5,138,Nashville Predators,patrick-harper,,,,,2016,2020-06-03,Patrick Harper,F,0.09,4,28.0
+118,221342,1998-01-26,"Helsinki, FIN",Finland,183.0,88.0,L,Chicago Blackhawks,True,2018,5,139,Chicago Blackhawks,mikael-hakkarainen,,,,,2016,2020-06-03,Mikael Hakkarainen,F,0.09,7,28.1
+119,395520,2001-03-20,"Helsinki, FIN",Finland                                                                                             /  Brazil,186.0,87.0,L,Vegas Golden Knights,True,2019,5,139,Vegas Golden Knights,marcus-kallionkieli,,,,,2019,2020-06-03,Marcus Kallionkieli,F,0.14,22,107.5
+120,334036,2000-02-25,"Cicero, NY, USA",USA,183.0,74.0,L,Philadelphia Flyers,True,2018,1,14,Philadelphia Flyers,joel-farabee,,,,,2018,2020-06-03,Joel Farabee,F,1.0,4,115.1
+121,290129,2001-01-05,"Anaheim, CA, USA",USA,180.0,79.0,L,Philadelphia Flyers,False,2019,1,14,Philadelphia Flyers,cameron-york,,,,,2019,2020-06-03,Cameron York,D,0.59,26,64.8
+122,290349,2001-05-06,"Vancouver, BC, CAN",Canada,185.0,89.0,R,Colorado Avalanche,False,2019,5,140,Colorado Avalanche,sasha-mutala,,,,,2019,2020-06-03,Sasha Mutala,F,0.12,19,100.5
+123,247116,1998-02-13,"Mississauga, ON, CAN",Canada,191.0,88.0,L,,,2016,5,140,Vancouver Canucks,cole-candella,,,,,2016,2020-06-03,Cole Candella,D,0.16,5,26.7
+124,239031,1998-06-14,"Grimsby, ON, CAN",Canada                                                                                             /  Sweden,188.0,91.0,L,,,2018,5,140,Colorado Avalanche,brandon-saigeon,,,,,2016,2020-06-03,Brandon Saigeon,F,0.08,6,2.4
+125,452004,2001-07-28,"Owen Sound, ON, CAN",Canada,195.0,92.0,L,Vegas Golden Knights,False,2019,5,141,Vegas Golden Knights,mason-primeau,,,,,2019,2020-06-03,Mason Primeau,F,0.11,20,63.9
+126,271111,1998-06-06,"Minsk, BLR",Belarus,187.0,93.0,L,New Jersey Devils,True,2018,5,141,New Jersey Devils,yegor-sharangovich,,,,,2016,2020-06-03,Yegor Sharangovich,F,0.09,3,26.2
+127,272570,1998-04-14,"North Olmsted, OH, USA",USA,198.0,100.0,L,New York Rangers,True,2016,5,141,New York Rangers,tim-gettinger,,,,,2016,2020-06-03,Tim Gettinger,F,0.1,3,32.7
+128,273797,1999-01-27,"Toronto, ON, CAN",Canada                                                                                             /  Russia,200.0,102.0,L,Minnesota Wild,True,2017,5,141,Toronto Maple Leafs,fedor-gordeev,,,,,2017,2020-06-03,Fedor Gordeev,D,0.17,6,8.4
+129,201479,1999-09-23,"Franklin, MA, USA",USA,188.0,89.0,L,Arizona Coyotes,False,2018,5,142,Arizona Coyotes,michael-callahan,,,,,2018,2020-06-03,Michael Callahan,D,0.16,7,42.7
+130,372048,2001-03-12,"Sault Ste. Marie, ON, CAN",Canada,183.0,82.0,L,Dallas Stars,False,2019,5,142,Dallas Stars,nicholas-porco,,,,,2019,2020-06-03,Nicholas Porco,F,0.19,25,53.2
+131,328238,2000-08-23,"Skara, SWE",Sweden,185.0,85.0,L,Buffalo Sabres,False,2019,5,143,Buffalo Sabres,filip-cederqvist,,,,,2018,2020-06-03,Filip Cederqvist,F,0.05,17,10.6
+132,444997,2001-03-19,"Grand Forks, ND, USA",USA,193.0,93.0,R,Pittsburgh Penguins,False,2019,5,145,Pittsburgh Penguins,judd-caulfield,,,,,2019,2020-06-03,Judd Caulfield,F,0.08,18,22.9
+133,266116,1999-09-02,"Östersund, SWE",Sweden,185.0,81.0,L,New York Rangers,False,2017,5,145,New York Rangers,calle-sjalin,,,,,2017,2020-06-03,Calle Själin,D,0.01,9,0.2
+134,273629,2000-01-06,"Barrie, ON, CAN",Canada,180.0,86.0,R,,,2018,5,145,Arizona Coyotes,dennis-busby,,,,,2018,2020-06-03,Dennis Busby,D,0.25,16,47.4
+135,247477,1998-02-04,"White Rock, BC, CAN",Canada,188.0,88.0,L,Washington Capitals,True,2016,5,145,Washington Capitals,beck-malenstyn,,,,,2016,2020-06-03,Beck Malenstyn,F,0.06,3,21.1
+136,375639,2000-04-08,"Nizhny Novgorod, RUS",Russia,184.0,74.0,L,Colorado Avalanche,False,2018,5,146,Colorado Avalanche,daniil-zhuravlyov,,,,,2018,2020-06-03,Daniil Zhuravlyov,D,0.03,13,9.1
+137,427432,2001-04-13,"Chaska, MN, USA",USA,175.0,78.0,L,Toronto Maple Leafs,False,2019,5,146,Toronto Maple Leafs,mike-koster,,,,,2019,2020-06-03,Mike Koster,D,0.07,43,22.1
+138,273658,1999-06-01,"Moskva, RUS",Russia                                                                                             /  Canada,191.0,94.0,R,Edmonton Oilers,True,2017,5,146,Edmonton Oilers,kirill-maximov,,,,,2017,2020-06-03,Kirill Maximov,F,0.19,5,44.0
+139,351979,2001-02-20,"Moose Jaw, SK, CAN",Canada,180.0,82.0,L,New York Islanders,False,2019,5,147,New York Islanders,reece-newkirk,,,,,2019,2020-06-03,Reece Newkirk,F,0.32,25,162.4
+140,201654,1999-03-20,"Toronto, ON, CAN",Canada,183.0,84.0,L,,,2017,5,147,Minnesota Wild,jacob-golden,,,,,2017,2020-06-03,Jacob Golden,D,0.22,6,18.3
+141,252451,1998-03-27,"Victoria, BC, CAN",Canada,188.0,95.0,R,,,2016,5,148,Tampa Bay Lightning,christopher-paquette,,,,,2016,2020-06-03,Christopher Paquette,F,0.1,6,3.0
+142,289775,1999-06-14,"Stockholm, SWE",Sweden,188.0,86.0,R,Minnesota Wild,False,2018,5,148,Minnesota Wild,simon-johansson,,,,,2017,2020-06-03,Simon Johansson,D,0.03,9,17.6
+143,247241,1999-10-20,"Blansko, CZE",Czech Rep.,185.0,78.0,L,Toronto Maple Leafs,True,2018,5,149,Toronto Maple Leafs,filip-kral,,,,,2018,2020-06-03,Filip Král,D,0.15,6,18.9
+144,450910,2001-01-30,"Nizhnekamsk, RUS",Russia,185.0,78.0,L,Minnesota Wild,False,2019,5,149,Minnesota Wild,matvei-guskov,,,,,2019,2020-06-03,Matvei Guskov,F,0.2,21,74.5
+145,297994,1999-03-15,"Langley, BC, CAN",Canada,190.0,87.0,L,,,2017,5,149,Montréal Canadiens,jarret-tyszka,,,,,2017,2020-06-03,Jarret Tyszka,D,0.23,12,49.0
+146,255167,1999-09-02,"Eksjö, SWE",Sweden,179.0,82.0,L,Ottawa Senators,True,2017,1,15,Vegas Golden Knights,erik-brannstrom,,,,,2017,2020-06-03,Erik Brännström,D,0.87,4,53.9
+147,312827,2000-06-24,"Novosibirsk, RUS",Russia,180.0,82.0,R,Florida Panthers,True,2018,1,15,Florida Panthers,grigori-denisenko,,,,,2018,2020-06-03,Grigori Denisenko,F,0.2,20,32.4
+148,316168,2001-01-02,"Stevens Point, WI, USA",USA                                                                                             /  Canada,170.0,74.0,R,Montréal Canadiens,False,2019,1,15,Montréal Canadiens,cole-caufield,,,,,2019,2020-06-03,Cole Caufield,F,0.88,25,176.1
+149,236429,1999-06-15,"Ostrava, CZE",Czech Rep.,181.0,75.0,L,Chicago Blackhawks,False,2017,5,150,Chicago Blackhawks,jakub-galvas,,,,,2017,2020-06-03,Jakub Galvas,D,0.09,7,30.8
+150,290052,2001-04-27,"Oak Park, MI, USA",USA,183.0,89.0,R,Calgary Flames,False,2019,5,150,Calgary Flames,josh-nodler,,,,,2019,2020-06-03,Josh Nodler,F,0.03,18,20.6
+151,363643,2000-01-12,"Bowmanville, ON, CAN",Canada,185.0,86.0,L,Winnipeg Jets,True,2018,5,150,Winnipeg Jets,declan-chisholm,,,,,2018,2020-06-03,Declan Chisholm,D,0.17,11,20.4
+152,383083,1999-04-24,"Mishutki, BLR",Belarus,183.0,85.0,R,Nashville Predators,False,2018,5,151,Nashville Predators,vladislav-yeryomenko,,,,,2017,2020-06-03,Vladislav Yeryomenko,D,0.01,9,3.4
+153,241335,1998-05-11,"Espoo, FIN",Finland,185.0,76.0,L,Pittsburgh Penguins,True,2016,5,151,Pittsburgh Penguins,niclas-almari,,,,,2016,2020-06-03,Niclas Almari,D,0.04,3,14.2
+154,395509,2001-07-05,"Oulu, FIN",Finland,184.0,80.0,R,Arizona Coyotes,False,2019,5,151,Arizona Coyotes,aku-raty,,,,,2019,2020-06-03,Aku Räty,F,0.02,19,12.9
+155,244393,1999-03-19,"Ingarö, SWE",Sweden,184.0,92.0,L,Washington Capitals,False,2017,5,151,Washington Capitals,sebastian-walfridsson,,,,,2017,2020-06-03,Sebastian Walfridsson,D,0.02,9,5.4
+156,312832,1999-04-06,"Khabarovsk, RUS",Russia,178.0,70.0,L,Carolina Hurricanes,False,2019,5,152,Carolina Hurricanes,kirill-slepets,,,,,2017,2020-06-03,Kirill Slepets,F,0.02,5,32.3
+157,265944,1999-04-01,"Maribor, SLO",Slovenia,188.0,79.0,R,Pittsburgh Penguins,True,2017,5,152,Pittsburgh Penguins,jan-drozg,,,,,2017,2020-06-03,Jan Drozg,F,0.07,5,21.4
+158,299432,2000-02-21,"Ottawa, ON, CAN",Canada,187.0,90.0,L,,,2018,5,153,Winnipeg Jets,giovanni-vallati,,,,,2018,2020-06-03,Giovanni Vallati,D,0.19,17,33.6
+159,118081,1998-06-01,"Tampere, FIN",Finland,183.0,94.0,R,Edmonton Oilers,False,2016,6,153,Edmonton Oilers,aapeli-rasanen,,,,,2016,2020-06-03,Aapeli Räsänen,F,0.04,4,19.2
+160,363485,2001-02-02,"Praha, CZE",Czech Rep.,194.0,85.0,R,Washington Capitals,False,2019,5,153,Washington Capitals,hugo-has,,,,,2019,2020-06-03,Hugo Has,D,0.11,20,48.4
+161,404752,2000-08-07,"Markham, ON, CAN",Canada,188.0,87.0,R,Vegas Golden Knights,True,2018,5,154,Vegas Golden Knights,connor-corcoran,,,,,2018,2020-06-03,Connor Corcoran,D,0.16,12,36.5
+162,514141,2001-02-10,"Yaroslavl, RUS",Russia,180.0,77.0,L,Boston Bruins,False,2019,5,154,Boston Bruins,roman-bychkov,,,,,2019,2020-06-03,Roman Bychkov,D,0.1,38,36.8
+163,270155,2000-03-03,"Sudbury, ON, CAN",Canada,177.0,84.0,L,Minnesota Wild,True,2018,5,155,Minnesota Wild,damien-giroux,,,,,2018,2020-06-03,Damien Giroux,F,0.18,12,53.0
+164,433833,2001-08-16,"Kitchener, ON, CAN",Canada,178.0,84.0,L,St. Louis Blues,False,2019,5,155,St. Louis Blues,keean-washkurak,,,,,2019,2020-06-03,Keean Washkurak,F,0.13,21,89.2
+165,265859,1999-03-09,"Västerås, SWE",Sweden,180.0,81.0,L,Toronto Maple Leafs,False,2018,6,156,Toronto Maple Leafs,pontus-holmberg,,,,,2017,2020-06-03,Pontus Holmberg,F,0.08,9,25.1
+166,433810,2001-01-23,"Millis, MA, USA",USA,180.0,83.0,R,New Jersey Devils,False,2019,6,158,New Jersey Devils,patrick-moynihan,,,,,2019,2020-06-03,Patrick Moynihan,F,0.06,21,26.2
+167,273669,1999-02-16,"Toronto, ON, CAN",Canada,180.0,86.0,L,Vegas Golden Knights,False,2017,6,158,Vegas Golden Knights,nick-campoli,,,,,2017,2020-06-03,Nick Campoli,F,0.04,6,21.8
+168,201452,1999-02-25,"Orange, CA, USA",USA,180.0,85.0,R,San Jose Sharks,True,2017,6,159,San Jose Sharks,jake-mcgrew,,,,,2017,2020-06-03,Jake McGrew,F,0.17,16,62.2
+169,350706,2001-07-05,"Göteborg, SWE",Sweden,200.0,103.0,L,Detroit Red Wings,False,2019,6,159,Detroit Red Wings,elmer-soderblom,,,,,2019,2020-06-03,Elmer Söderblom,F,0.3,63,73.5
+170,296565,2000-02-11,"Männedorf, SUI",Switzerland,182.0,83.0,L,Columbus Blue Jackets,True,2018,6,159,Columbus Blue Jackets,tim-berni,,,,,2018,2020-06-03,Tim Berni,D,0.09,10,18.7
+171,320307,2001-01-28,"St. John's, NL, CAN",Canada,179.0,87.0,L,Colorado Avalanche,False,2019,1,16,Colorado Avalanche,alex-newhook,,,,,2019,2020-06-03,Alex Newhook,F,0.91,31,154.7
+172,221525,1998-10-06,"Nokia, FIN",Finland,187.0,93.0,L,Calgary Flames,True,2017,1,16,Calgary Flames,juuso-valimaki,,,,,2017,2020-06-03,Juuso Välimäki,D,0.81,4,68.7
+173,237068,1999-10-02,"Brno, CZE",Czech Rep.,187.0,86.0,R,Colorado Avalanche,True,2018,1,16,Colorado Avalanche,martin-kaut,,,,,2018,2020-06-03,Martin Kaut,F,0.6,6,47.7
+174,236358,1999-04-20,"Ostrov nad Ohri, CZE",Czech Rep.,180.0,73.0,L,Buffalo Sabres,False,2019,6,160,Buffalo Sabres,lukas-rousek,,,,,2017,2020-06-03,Lukas Rousek,F,0.06,9,23.1
+175,299098,1999-02-11,"Espoo, FIN",Finland,180.0,91.0,L,New Jersey Devils,False,2017,6,160,New Jersey Devils,aarne-talvitie,,,,,2017,2020-06-03,Aarne Talvitie,F,0.11,7,38.0
+176,269038,1998-03-13,"Toronto, ON, CAN",Canada,185.0,93.0,L,Montréal Canadiens,True,2016,6,160,Montréal Canadiens,michael-pezzetta,,,,,2016,2020-06-03,Michael Pezzetta,F,0.03,3,8.9
+177,349951,2000-10-12,"Karlstad, SWE",Sweden,199.0,96.0,L,New York Rangers,False,2019,6,161,New York Rangers,adam-edstrom,,,,,2019,2020-06-03,Adam Edström,F,0.06,16,9.4
+178,353810,1998-05-08,"Boulder, CO, USA",USA,188.0,88.0,R,Colorado Avalanche,False,2016,6,161,Colorado Avalanche,nate-clurman,,,,,2016,2020-06-03,Nate Clurman,D,0.01,4,17.6
+179,287497,2000-07-20,"Regina, SK, CAN",Canada,183.0,88.0,R,,,2018,6,161,Washington Capitals,alex-kannok-leipert,,,,,2018,2020-06-03,Alex Kannok-Leipert,D,0.11,17,19.1
+180,375487,2000-11-16,"St. Paul, MN, USA",USA,195.0,95.0,R,Anaheim Ducks,False,2019,6,163,Anaheim Ducks,william-francis,,,,,2019,2020-06-03,William Francis,D,0.09,14,11.7
+181,201702,1999-06-01,"Oakbank, MB, CAN",Canada,185.0,81.0,L,,,2017,6,163,Dallas Stars,brett-davis,,,,,2017,2020-06-03,Brett Davis,F,0.16,6,28.0
+182,291923,2000-02-17,"Nashville, TN, USA",Sweden,189.0,87.0,L,New York Rangers,False,2018,6,163,New York Rangers,simon-kjellberg,,,,,2018,2020-06-03,Simon Kjellberg,D,0.07,10,16.5
+183,273694,1999-05-04,"Stoney Creek, ON, CAN",Canada,193.0,91.0,R,,,2017,6,164,Detroit Red Wings,reilly-webb,,,,,2017,2020-06-03,Reilly Webb,D,0.12,6,2.3
+184,240028,1997-12-02,"Strathroy, ON, CAN",Canada,185.0,83.0,L,,,2016,6,164,Carolina Hurricanes,noah-carroll,,,,,2016,2020-06-03,Noah Carroll,D,0.09,6,12.8
+185,392594,2000-10-12,"St. Petersburg, RUS",Russia,185.0,83.0,L,San Jose Sharks,True,2019,6,164,San Jose Sharks,timur-ibragimov,,,,,2019,2020-06-03,Timur Ibragimov,F,0.06,31,34.1
+186,375367,2000-01-13,"New Hampton, NH, USA",USA                                                                                             /  Canada,193.0,86.0,R,Edmonton Oilers,False,2018,6,164,Edmonton Oilers,michael-kesselring,,,,,2018,2020-06-03,Michael Kesselring,D,0.06,10,15.5
+187,450506,2001-06-03,"Novosibirsk, RUS",Russia,178.0,72.0,L,Philadelphia Flyers,False,2019,6,165,Philadelphia Flyers,yegor-serdyuk,,,,,2019,2020-06-03,Yegor Serdyuk,F,0.23,25,66.4
+188,212666,1998-03-09,"Karlstad, SWE",Sweden,176.0,85.0,R,Boston Bruins,True,2016,6,165,Boston Bruins,oskar-steen,,,,,2016,2020-06-03,Oskar Steen,F,0.06,3,32.6
+189,246437,1999-11-20,"Stockholm, SWE",Sweden,191.0,93.0,L,Los Angeles Kings,True,2018,6,165,Los Angeles Kings,johan-sodergran,,,,,2018,2020-06-03,Johan Södergran,F,0.11,5,25.3
+190,201536,1999-01-14,"Montréal, QC, CAN",Canada,183.0,83.0,L,New York Islanders,True,2017,6,165,New York Islanders,arnaud-durandeau,,,,,2017,2020-06-03,Arnaud Durandeau,F,0.08,6,19.0
+191,381692,2001-04-20,"Laurel Hollow, NY, USA",USA,180.0,76.0,L,Minnesota Wild,False,2019,6,166,Minnesota Wild,marshall-warren,,,,,2019,2020-06-03,Marshall Warren,D,0.2,18,40.4
+192,247160,1998-03-23,"Victoria, BC, CAN",Canada,195.0,90.0,L,,,2017,6,166,Carolina Hurricanes,brendan-de-jong,,,,,2016,2020-06-03,Brendan De Jong,D,0.14,6,2.8
+193,274219,2000-04-03,"Manglerud, NOR",Norway,179.0,85.0,L,Calgary Flames,True,2018,6,167,Calgary Flames,mathias-emilio-pettersen,,,,,2018,2020-06-03,Mathias Emilio Pettersen,F,0.1,20,24.9
+194,285046,2000-01-12,"Foxwarren, MB, CAN",Canada,185.0,85.0,R,Dallas Stars,True,2018,6,168,Dallas Stars,dawson-barteaux,,,,,2018,2020-06-03,Dawson Barteaux,D,0.12,12,30.9
+195,286948,1999-01-01,"Ottawa, ON, CAN",Canada,178.0,82.0,R,,,2019,6,168,Florida Panthers,greg-meireles,,,,,2017,2020-06-03,Greg Meireles,F,0.2,6,37.8
+196,265290,1999-08-24,"Oskarshamn, SWE",Sweden,181.0,80.0,L,Philadelphia Flyers,False,2017,6,168,Philadelphia Flyers,olle-lycksell,,,,,2017,2020-06-03,Olle Lycksell,F,0.19,7,49.4
+197,382160,2000-06-27,"Montréal, QC, CAN",Canada,188.0,82.0,R,St. Louis Blues,True,2018,6,169,St. Louis Blues,mathias-laferriere,,,,,2018,2020-06-03,Mathias Laferrière,F,0.17,19,40.2
+198,380612,1998-06-15,"Elk River, MN, USA",USA,188.0,87.0,R,Tampa Bay Lightning,False,2017,6,169,Tampa Bay Lightning,nicklaus-perbix,,,,,2016,2020-06-03,Nicklaus Perbix,D,0.03,4,23.0
+199,224910,1999-04-30,"Kristianstad, SWE",Sweden                                                                                             /  USA,183.0,87.0,R,Toronto Maple Leafs,True,2017,1,17,Toronto Maple Leafs,timothy-liljegren,,,,,2017,2020-06-03,Timothy Liljegren,D,0.75,6,78.6
+200,281814,2000-03-24,"Lloydminster, SK, CAN",Canada,180.0,81.0,L,New Jersey Devils,True,2018,1,17,New Jersey Devils,ty-smith,,,,,2018,2020-06-03,Ty Smith,D,0.83,11,146.4
+201,322178,2001-01-26,"Calgary, AB, CAN",Canada,180.0,82.0,L,Vegas Golden Knights,True,2019,1,17,Vegas Golden Knights,peyton-krebs,,,,,2019,2020-06-03,Peyton Krebs,F,0.65,18,96.0
+202,372023,1998-02-26,-,Russia,191.0,92.0,L,Montréal Canadiens,True,2019,6,170,Montréal Canadiens,arsen-khisamutdinov,,,,,2016,2020-06-03,Arsen Khisamutdinov,F,0.01,4,6.8
+203,233489,1998-04-24,"Brighton, MI, USA",USA,175.0,88.0,L,New York Islanders,False,2016,6,170,New York Islanders,collin-adams,,,,,2016,2020-06-03,Collin Adams,F,0.04,4,12.8
+204,307537,1999-04-07,"Gatineau, QC, CAN",Canada,191.0,82.0,R,,,2017,6,171,Calgary Flames,d-artagnan-joly,,,,,2017,2020-06-03,D'Artagnan Joly,F,0.15,6,21.1
+205,258430,2000-01-07,"Surrey, BC, CAN",Canada,185.0,86.0,L,Colorado Avalanche,False,2019,6,171,Colorado Avalanche,luka-burzan,,,,,2018,2020-06-03,Luka Burzan,F,0.14,12,34.1
+206,339499,1999-10-17,"Raleigh, NC, USA",Russia                                                                                             /  USA,178.0,84.0,L,Colorado Avalanche,False,2018,6,171,Colorado Avalanche,nikolai-kovalenko,,,,,2018,2020-06-03,Nikolai Kovalenko,F,0.01,10,2.9
+207,289231,1999-01-29,"Burlington, ON, CAN",Canada,183.0,76.0,L,Arizona Coyotes,True,2017,6,172,Toronto Maple Leafs,ryan-mcgregor,,,,,2017,2020-06-03,Ryan McGregor,F,0.13,6,27.5
+208,254246,1998-03-05,"Windsor, ON, CAN",Canada,180.0,82.0,L,,,2016,6,172,Philadelphia Flyers,anthony-salinitri,,,,,2016,2020-06-03,Anthony Salinitri,F,0.12,6,30.2
+209,360952,2000-01-27,"Waterloo, ON, CAN",Canada,183.0,80.0,L,,,2018,6,172,New Jersey Devils,mitchell-hoelscher,,,,,2018,2020-06-03,Mitchell Hoelscher,F,0.25,13,68.6
+210,327230,2000-10-04,"Edina, MN, USA",USA,183.0,98.0,L,Dallas Stars,False,2019,6,173,Dallas Stars,ben-brinkman,,,,,2019,2020-06-03,Ben Brinkman,D,0.08,10,14.2
+211,319958,1999-01-24,"Lévis, QC, CAN",Canada,191.0,93.0,L,,,2017,6,173,Boston Bruins,cedric-pare,,,,,2017,2020-06-03,Cédric Paré,F,0.12,5,21.9
+212,354061,2000-04-03,"Grand Rapids, MN, USA",USA,183.0,89.0,L,Philadelphia Flyers,False,2018,6,174,Philadelphia Flyers,gavin-hain,,,,,2018,2020-06-03,Gavin Hain,F,0.04,11,22.7
+213,398544,2000-12-23,"Sarov, RUS",Russia,178.0,74.0,L,Arizona Coyotes,False,2019,6,174,Arizona Coyotes,danil-savunov,,,,,2019,2020-06-03,Danil Savunov,F,0.06,28,35.0
+214,272426,2000-07-28,"Prerov, CZE",Czech Rep.,181.0,83.0,L,Vancouver Canucks,False,2019,6,175,Vancouver Canucks,karel-plasek,,,,,2018,2020-06-03,Karel Plasek,F,0.07,18,33.5
+215,239804,1998-06-11,"Burlington, ON, CAN",Canada,188.0,91.0,L,,,2017,6,175,St. Louis Blues,trent-bourque,,,,,2016,2020-06-03,Trent Bourque,D,0.19,5,28.8
+216,234450,1997-09-15,"Bellevue, WA, USA",Canada                                                                                             /  USA,193.0,96.0,L,,,2015,6,176,St. Louis Blues,liam-dunda,,,,,2016,2020-06-03,Liam Dunda,F,0.11,6,0.9
+217,438110,2000-10-07,"Richmond Hill, ON, CAN",Canada,180.0,83.0,R,Arizona Coyotes,False,2019,6,176,Arizona Coyotes,anthony-romano,,,,,2019,2020-06-03,Anthony Romano,F,0.04,9,12.9
+218,212688,1998-03-17,"Mora, SWE",Sweden,187.0,77.0,R,,,2016,6,176,Dallas Stars,jakob-stenqvist,,,,,2016,2020-06-03,Jakob Stenqvist,D,0.06,4,15.8
+219,273659,1999-02-17,"Moskva, RUS",Russia,184.0,80.0,L,,,2017,6,176,Nashville Predators,pavel-koltygin,,,,,2017,2020-06-03,Pavel Koltygin,F,0.01,9,0.7
+220,345585,1999-07-27,"Raleigh, NC, USA",USA                                                                                             /  Canada,188.0,80.0,L,Edmonton Oilers,False,2017,6,177,Edmonton Oilers,skyler-brind-amour,,,,,2017,2020-06-03,Skyler Brind'Amour,F,0.09,6,32.3
+221,324561,1998-04-13,"Ryazan, RUS",Russia,205.0,107.0,L,Tampa Bay Lightning,True,2016,6,178,Tampa Bay Lightning,oleg-sosunov,,,,,2016,2020-06-03,Oleg Sosunov,D,0.1,5,19.6
+222,267823,1998-10-21,"Kingston, ON, CAN",Canada,188.0,87.0,R,Anaheim Ducks,True,2018,6,178,Anaheim Ducks,hunter-drew,,,,,2017,2020-06-03,Hunter Drew,D,0.04,3,5.9
+223,284916,1999-03-31,"Mercier, QC, CAN",Canada,183.0,85.0,L,New York Islanders,False,2019,6,178,New York Islanders,felix-bibeau,,,,,2017,2020-06-03,Félix Bibeau,F,0.12,5,27.9
+224,251744,1998-03-05,"Ottawa, ON, CAN",Canada,197.0,98.0,R,,,2016,6,179,Toronto Maple Leafs,nicolas-mattinen,,,,,2016,2020-06-03,Nicolas Mattinen,D,0.11,6,10.6
+225,275589,1999-09-14,"Laval, QC, CAN",Canada,195.0,101.0,R,,,2018,6,179,Minnesota Wild,shawn-boudrias,,,,,2017,2020-06-03,Shawn Boudrias,F,0.18,5,34.7
+226,397650,2000-02-04,"Toronto, ON, CAN",Canada,185.0,82.0,L,Columbus Blue Jackets,True,2018,1,18,Columbus Blue Jackets,liam-foudy,,,,,2018,2020-06-03,Liam Foudy,F,0.62,10,64.6
+227,465160,2001-08-19,"Syracuse, NY, USA",Canada                                                                                             /  USA,190.0,87.0,L,Dallas Stars,True,2019,1,18,Dallas Stars,thomas-harley,,,,,2019,2020-06-03,Thomas Harley,D,0.71,18,81.8
+228,180538,1999-01-01,"Joensuu, FIN",Finland,185.0,84.0,L,Boston Bruins,True,2017,1,18,Boston Bruins,urho-vaakanainen,,,,,2017,2020-06-03,Urho Vaakanainen,D,0.36,5,40.0
+229,240108,1998-05-26,"Kitchener, ON, CAN",Canada,200.0,105.0,L,Winnipeg Jets,True,2016,1,18,Winnipeg Jets,logan-stanley,,,,,2016,2020-06-03,Logan Stanley,D,0.21,3,34.5
+230,267086,2000-03-31,"Halifax, NS, CAN",Canada,183.0,77.0,L,Vegas Golden Knights,False,2018,6,180,Vegas Golden Knights,peter-diliberatore,,,,,2018,2020-06-03,Peter Diliberatore,D,0.06,10,13.3
+231,245255,1997-09-28,"Mississauga, ON, CAN",Canada,188.0,100.0,R,,,2016,6,180,San Jose Sharks,mark-shoemaker,,,,,2016,2020-06-03,Mark Shoemaker,D,0.08,5,15.4
+232,364031,2000-10-13,"Danville, CA, USA",USA,185.0,87.0,R,Vancouver Canucks,False,2019,6,180,Vancouver Canucks,jack-malone,,,,,2019,2020-06-03,Jack Malone,F,0.1,11,24.4
+233,201449,1999-04-06,"Los Angeles, CA, USA",USA,175.0,76.0,R,Tampa Bay Lightning,False,2017,6,180,Tampa Bay Lightning,cole-guttman,,,,,2017,2020-06-03,Cole Guttman,F,0.12,7,40.6
+234,370364,2000-08-04,"Waterdown, ON, CAN",Canada,188.0,84.0,L,Boston Bruins,False,2018,6,181,Boston Bruins,dustyn-mcfaul,,,,,2018,2020-06-03,Dustyn McFaul,D,0.09,10,20.5
+235,355153,2000-02-01,"Rochester, NY, USA",USA,183.0,85.0,R,Carolina Hurricanes,False,2019,6,181,Carolina Hurricanes,kevin-wall,,,,,2018,2020-06-03,Kevin Wall,F,0.11,9,20.9
+236,352013,2001-07-27,"Wilcox, SK, CAN",Canada,188.0,90.0,L,Tampa Bay Lightning,False,2019,6,182,Tampa Bay Lightning,quinn-schmiemann,,,,,2019,2020-06-03,Quinn Schmiemann,D,0.18,21,39.1
+237,272976,1998-08-07,"Amherst, MA, USA",USA,180.0,84.0,L,San Jose Sharks,True,2018,6,182,San Jose Sharks,john-leonard,,,,,2016,2020-06-03,John Leonard,F,0.08,4,35.9
+238,300846,1998-05-17,"Hermantown, MN, USA",USA,185.0,89.0,L,Tampa Bay Lightning,False,2018,6,183,Tampa Bay Lightning,cole-koepke,,,,,2016,2020-06-03,Cole Koepke,F,0.11,4,32.5
+239,416872,2001-07-05,"Uxbridge, ON, CAN",Canada,188.0,85.0,L,Carolina Hurricanes,False,2019,6,183,Carolina Hurricanes,blake-murray,,,,,2019,2020-06-03,Blake Murray,F,0.21,20,104.8
+240,397011,2001-01-15,"Riihimäki, FIN",Finland,185.0,83.0,L,San Jose Sharks,False,2019,6,184,San Jose Sharks,santeri-hatakka,,,,,2019,2020-06-03,Santeri Hatakka,D,0.03,24,21.3
+241,201447,1999-06-09,"Huntington Beach, CA, USA",USA                                                                                             /  Ukraine,183.0,85.0,R,San Jose Sharks,True,2017,6,185,San Jose Sharks,sasha-chmelevski,,,,,2017,2020-06-03,Sasha Chmelevski,F,0.22,6,38.0
+242,241374,2000-02-28,"Rouyn-Noranda, QC, CAN",Canada,191.0,91.0,R,,,2018,6,185,Vegas Golden Knights,xavier-bouchard,,,,,2018,2020-06-03,Xavier Bouchard,D,0.19,12,42.7
+243,428827,2001-06-21,"Lappeenranta, FIN",Finland,181.0,73.0,L,Boston Bruins,False,2019,6,185,Boston Bruins,matias-mantykivi,,,,,2019,2020-06-03,Matias Mäntykivi,F,0.03,30,29.9
+244,244216,1999-01-18,"Kouvola, FIN",Finland,186.0,78.0,L,Pittsburgh Penguins,False,2017,6,186,Pittsburgh Penguins,antti-palojarvi,,,,,2017,2020-06-03,Antti Palojärvi,D,0.03,9,20.0
+245,312221,1998-06-09,"Omsk, RUS",Russia                                                                                             /  Armenia,170.0,63.0,R,Vancouver Canucks,False,2018,6,186,Vancouver Canucks,artyom-manukyan,,,,,2016,2020-06-03,Artyom Manukyan,F,0.02,7,23.1
+246,387330,2001-05-01,"Mississauga, ON, CAN",Canada,191.0,92.0,L,Anaheim Ducks,False,2019,6,186,Anaheim Ducks,mathew-hill,,,,,2019,2020-06-03,Mathew Hill,D,0.27,22,31.5
+247,410616,2001-04-28,"Sainte-Foy, QC, CAN",Canada,185.0,82.0,R,Ottawa Senators,False,2019,7,187,Ottawa Senators,maxence-guenette,,,,,2019,2020-06-03,Maxence Guénette,D,0.11,26,31.4
+248,246448,1998-02-23,"Stockholm, SWE",Sweden,195.0,96.0,R,Montréal Canadiens,False,2016,7,187,Montréal Canadiens,arvid-henrikson,,,,,2016,2020-06-03,Arvid Henrikson,D,0.01,4,0.3
+249,281973,2000-05-15,"Linköping, SWE",Sweden,197.0,84.0,L,Buffalo Sabres,False,2018,7,187,Buffalo Sabres,william-worge-kreu,,,,,2018,2020-06-03,William Worge Kreü,D,0.03,22,6.0
+250,268659,1998-08-08,"Barrie, ON, CAN",Canada,188.0,89.0,R,,,2017,7,188,Vancouver Canucks,matt-brassard,,,,,2016,2020-06-03,Matt Brassard,D,0.22,5,41.1
+251,350001,2000-07-26,"Karlstad, SWE",Sweden                                                                                             /  USA,195.0,93.0,L,Los Angeles Kings,False,2019,7,188,Los Angeles Kings,andre-lee,,,,,2018,2020-06-03,Andre Lee,F,0.08,11,27.6
+252,230605,2000-01-03,"Maltby, GBR",England,185.0,75.0,L,Arizona Coyotes,False,2018,7,189,Arizona Coyotes,liam-kirk,,,,,2018,2020-06-03,Liam Kirk,F,0.23,11,66.8
+253,259121,2000-10-16,"Gislaved, SWE",Sweden,177.0,85.0,L,New Jersey Devils,False,2019,7,189,New Jersey Devils,nikola-pasic,,,,,2019,2020-06-03,Nikola Pasic,F,0.12,30,32.7
+254,267695,1998-04-30,"East Aurora, NY, USA",USA,193.0,94.0,L,,,2016,7,189,Buffalo Sabres,austin-osmanski,,,,,2016,2020-06-03,Austin Osmanski,D,0.08,5,1.0
+255,273677,1999-02-26,"Waterloo, ON, CAN",Canada,183.0,86.0,L,Vegas Golden Knights,True,2017,7,189,Vegas Golden Knights,ben-jones,,,,,2017,2020-06-03,Ben Jones,F,0.16,5,40.7
+256,372919,2000-09-24,"Tampere, FIN",Finland,182.0,86.0,R,Ottawa Senators,True,2019,1,19,Ottawa Senators,lassi-thomson,,,,,2019,2020-06-03,Lassi Thomson,D,0.72,19,78.3
+257,312015,1999-11-04,"Hingham, MA, USA",USA,180.0,84.0,R,Philadelphia Flyers,False,2018,1,19,Philadelphia Flyers,jay-o-brien,,,,,2018,2020-06-03,Jay O'Brien,F,0.65,8,74.7
+258,273954,1999-05-05,"Oxford, MI, USA",USA                                                                                             /  Canada,188.0,87.0,L,Ottawa Senators,True,2017,1,19,San Jose Sharks,josh-norris,,,,,2017,2020-06-03,Josh Norris,F,0.77,6,78.2
+259,398223,2000-08-08,"Yekaterinburg, RUS",Russia,175.0,66.0,L,Detroit Red Wings,False,2019,7,190,Detroit Red Wings,kirill-tyutyayev,,,,,2018,2020-06-03,Kirill Tyutyayev,F,0.11,17,93.3
+260,246501,1999-02-27,"Stockholm, SWE",Sweden,190.0,92.0,R,Arizona Coyotes,False,2017,7,190,Arizona Coyotes,erik-walli-walterholm,,,,,2017,2020-06-03,Erik Walli Walterholm,F,0.04,9,20.5
+261,201696,1999-02-23,"Campbell River, BC, CAN",Canada,178.0,78.0,R,Montréal Canadiens,False,2018,7,190,Montréal Canadiens,brett-stapley,,,,,2017,2020-06-03,Brett Stapley,F,0.1,7,34.1
+262,252446,1998-08-17,"Brampton, ON, CAN",Canada,186.0,91.0,L,Colorado Avalanche,True,2016,7,191,Colorado Avalanche,travis-barron,,,,,2016,2020-06-03,Travis Barron,F,0.07,5,0.2
+263,267626,1999-09-08,"Asbestos, QC, CAN",Canada,185.0,90.0,L,,,2017,7,191,New Jersey Devils,jocktan-chainey,Retired,,,,2017,2020-06-03,Jocktan Chainey,D,0.35,12,69.2
+264,376271,2000-03-24,"Pori, FIN",Finland,172.0,62.0,L,Detroit Red Wings,False,2018,7,191,Detroit Red Wings,otto-kivenmaki,,,,,2018,2020-06-03,Otto Kivenmäki,F,0.02,16,3.7
+265,316160,2001-04-24,"McFarland, WI, USA",USA,185.0,76.0,L,Boston Bruins,False,2019,7,192,Boston Bruins,jake-schmaltz,,,,,2019,2020-06-03,Jake Schmaltz,F,0.05,41,23.4
+266,230472,1998-04-19,"Göteborg, SWE",Sweden,173.0,73.0,L,Buffalo Sabres,False,2017,7,192,Buffalo Sabres,linus-weissbach,,,,,2016,2020-06-03,Linus Weissbach,F,0.06,4,22.0
+267,360187,2000-12-10,"Yaroslavl, RUS",Russia,177.0,76.0,L,Edmonton Oilers,False,2019,7,193,Edmonton Oilers,maxim-denezhkin,,,,,2019,2020-06-03,Maxim Denezhkin,F,0.07,16,64.9
+268,297674,1999-04-18,"Cobourg, ON, CAN",Canada,178.0,82.0,L,,,2017,7,193,Detroit Red Wings,brady-gilmour,,,,,2017,2020-06-03,Brady Gilmour,F,0.24,13,53.8
+269,428574,2000-10-17,"North Vancouver, BC, CAN",Canada,190.0,90.0,R,Chicago Blackhawks,False,2019,7,194,Chicago Blackhawks,cole-moberg,,,,,2019,2020-06-03,Cole Moberg,F,0.11,17,19.0
+270,443742,2000-07-26,"Minnetonka, MN, USA",USA                                                                                             /  Canada,185.0,88.0,R,Ottawa Senators,False,2018,7,194,Ottawa Senators,luke-loheit,,,,,2018,2020-06-03,Luke Loheit,F,0.01,9,12.4
+271,348494,1999-11-06,"Milton, MA, USA",USA,191.0,86.0,L,Vancouver Canucks,False,2019,7,195,Vancouver Canucks,aidan-mcdonough,,,,,2018,2020-06-03,Aidan McDonough,F,0.18,7,54.6
+272,375834,2000-04-16,"Espoo, FIN",Finland,187.0,90.0,L,Edmonton Oilers,False,2018,7,195,Edmonton Oilers,patrik-siikanen,,,,,2018,2020-06-03,Patrik Siikanen,F,0.02,14,15.7
+273,287706,1999-08-02,"Örnsköldsvik, SWE",Sweden,183.0,82.0,R,Boston Bruins,False,2017,7,195,Boston Bruins,victor-berglund,,,,,2017,2020-06-03,Victor Berglund,D,0.04,9,25.4
+274,283958,2000-05-05,"Novi, MI, USA",USA,188.0,87.0,L,New York Islanders,False,2018,7,196,New York Islanders,christian-krygier,,,,,2018,2020-06-03,Christian Krygier,D,0.02,10,9.8
+275,400134,2000-08-09,"Blaine, MN, USA",USA,183.0,98.0,R,Philadelphia Flyers,False,2019,7,196,Philadelphia Flyers,bryce-brodzinski,,,,,2018,2020-06-03,Bryce Brodzinski,F,0.13,11,35.2
+276,279385,1998-04-14,"Omsk, RUS",Russia,183.0,95.0,L,Minnesota Wild,True,2016,7,196,Minnesota Wild,dmitri-sokolov,,,,,2016,2020-06-03,Dmitri Sokolov,F,0.09,3,33.9
+277,314467,1998-10-08,"Joensuu, FIN",Finland,187.0,76.0,L,Carolina Hurricanes,False,2017,7,197,Carolina Hurricanes,ville-rasanen,,,,,2017,2020-06-03,Ville Räsänen,D,0.03,9,2.3
+278,340214,1999-09-12,"Moskva, RUS",Russia,193.0,88.0,L,Tampa Bay Lightning,False,2019,7,198,Tampa Bay Lightning,mikhail-shalagin,,,,,2017,2020-06-03,Mikhail Shalagin,F,0.03,21,33.2
+279,396918,2000-08-11,"Omsk, RUS",Russia,174.0,79.0,R,Calgary Flames,True,2018,7,198,Calgary Flames,dmitri-zavgorodny,,,,,2018,2020-06-03,Dmitri Zavgorodny,F,0.25,9,40.8
+280,166653,1998-01-20,"Sherwood Park, AB, CAN",Canada,175.0,77.0,L,Winnipeg Jets,True,2017,7,198,Winnipeg Jets,skyler-mckenzie,,,,,2016,2020-06-03,Skyler McKenzie,F,0.09,3,14.7
+281,201359,1999-05-25,"Edmonton, AB, CAN",Canada,191.0,89.0,L,,,2019,7,199,Florida Panthers,matthew-wedman,,,,,2017,2020-06-03,Matthew Wedman,F,0.16,6,0.9
+282,201274,1998-09-19,"Winnipeg, MB, CAN",Canada,189.0,90.0,R,Philadelphia Flyers,True,2017,1,2,Philadelphia Flyers,nolan-patrick,,,,,2017,2020-06-03,Nolan Patrick,F,1.0,3,95.4
+283,328556,2000-03-26,"Barnaul, RUS",Russia,189.0,88.0,L,Carolina Hurricanes,True,2018,1,2,Carolina Hurricanes,andrei-svechnikov,,,,,2018,2020-06-03,Andrei Svechnikov,F,1.0,4,162.4
+284,396655,2001-02-13,"Turku, FIN",Finland,187.0,90.0,L,New York Rangers,True,2019,1,2,New York Rangers,kaapo-kakko,,,,,2019,2020-06-03,Kaapo Kakko,F,1.0,5,196.4
+285,428795,2001-03-02,"Honkajoki, FIN",Finland,181.0,82.0,L,Winnipeg Jets,True,2019,1,20,Winnipeg Jets,ville-heinola,,,,,2019,2020-06-03,Ville Heinola,D,0.41,40,27.6
+286,319079,2000-03-15,"Kotka, FIN",Finland,186.0,84.0,R,Los Angeles Kings,True,2018,1,20,Los Angeles Kings,rasmus-kupari,,,,,2018,2020-06-03,Rasmus Kupari,F,0.73,7,96.2
+287,201681,1999-07-02,"Aurora, ON, CAN",Canada,183.0,85.0,R,St. Louis Blues,True,2017,1,20,St. Louis Blues,robert-thomas,,,,,2017,2020-06-03,Robert Thomas,F,1.0,3,135.8
+288,399243,2000-03-01,"Longlac, ON, CAN",Canada,188.0,93.0,L,St. Louis Blues,True,2018,7,200,St. Louis Blues,tyler-tucker,,,,,2018,2020-06-03,Tyler Tucker,D,0.14,12,17.5
+289,289485,2000-06-01,"Insjön, SWE",Sweden,176.0,91.0,L,Arizona Coyotes,False,2019,7,200,Arizona Coyotes,axel-bergkvist,,,,,2018,2020-06-03,Axel Bergkvist,D,0.14,12,29.3
+290,300078,1999-06-07,"Edina, MN, USA",USA,178.0,64.0,R,Tampa Bay Lightning,False,2017,7,200,Tampa Bay Lightning,samuel-walker,,,,,2017,2020-06-03,Samuel Walker,F,0.09,10,24.0
+291,273963,1999-03-03,"Brighton, MI, USA",USA,176.0,75.0,L,New York Islanders,False,2017,7,201,New York Islanders,logan-cockerill,,,,,2017,2020-06-03,Logan Cockerill,F,0.05,6,25.2
+292,354123,1999-01-06,"Jonquière, QC, CAN",Canada,175.0,78.0,L,Montréal Canadiens,False,2019,7,201,Montréal Canadiens,rafael-harvey-pinard,,,,,2017,2020-06-03,Rafaël Harvey-Pinard,F,0.12,6,22.9
+293,283959,2000-05-05,"Novi, MI, USA",USA,191.0,87.0,L,Florida Panthers,False,2018,7,201,Florida Panthers,cole-krygier,,,,,2018,2020-06-03,Cole Krygier,D,0.04,10,12.2
+294,244859,1999-07-03,"Gislaved, SWE",Sweden,182.0,82.0,L,Calgary Flames,False,2017,7,202,Calgary Flames,filip-sveningsson,,,,,2017,2020-06-03,Filip Sveningsson,F,0.01,9,11.0
+295,375979,1999-10-03,"Oulu, FIN",Finland,182.0,78.0,L,New Jersey Devils,False,2018,7,203,New Jersey Devils,eetu-pakkila,,,,,2018,2020-06-03,Eetu Päkkilä,F,0.01,6,20.5
+296,297332,1998-03-19,"Springfield, MA, USA",USA,180.0,84.0,R,,,2016,7,203,Chicago Blackhawks,jake-ryczek,,,,,2016,2020-06-03,Jake Ryczek,D,0.13,6,5.9
+297,332963,1999-06-04,"Kuopio, FIN",Finland,176.0,83.0,R,Pittsburgh Penguins,False,2019,7,203,Pittsburgh Penguins,valtteri-puustinen,,,,,2017,2020-06-03,Valtteri Puustinen,F,0.16,10,44.2
+298,286946,1999-04-25,"Gloucester, ON, CAN",Canada,185.0,77.0,L,Toronto Maple Leafs,False,2017,7,203,Toronto Maple Leafs,ryan-o-connell,,,,,2017,2020-06-03,Ryan O'Connell,D,0.03,6,13.2
+299,395424,2001-03-13,"Hämeenlinna, FIN",Finland,181.0,85.0,R,Toronto Maple Leafs,False,2019,7,204,Toronto Maple Leafs,kalle-loponen,,,,,2019,2020-06-03,Kalle Loponen,D,0.14,26,31.4
+300,247222,1999-04-29,"Most, CZE",Czech Rep.,196.0,98.0,R,,,2017,7,204,Boston Bruins,daniel-bukac,,,,,2017,2020-06-03,Daniel Bukac,D,0.03,12,5.1
+301,257717,1999-05-26,"Edmonton, AB, CAN",Canada,171.0,85.0,R,Columbus Blue Jackets,True,2018,7,204,Columbus Blue Jackets,trey-fix-wolansky,,,,,2017,2020-06-03,Trey Fix-Wolansky,F,0.16,6,29.5
+302,247979,1998-05-09,"St. Albert, AB, CAN",Canada,205.0,95.0,R,,,2016,7,204,Minnesota Wild,braydyn-chizen,,,,,2016,2020-06-03,Braydyn Chizen,D,0.07,5,0.5
+303,312209,1998-05-03,"Moskva, RUS",Russia,183.0,86.0,L,New Jersey Devils,False,2017,7,205,New Jersey Devils,yegor-zaitsev,,,,,2016,2020-06-03,Yegor Zaitsev,D,0.01,4,8.7
+304,424482,2001-01-14,"Vaughan, ON, CAN",Canada,183.0,77.0,R,New York Rangers,False,2019,7,205,New York Rangers,eric-ciccolini,,,,,2019,2020-06-03,Eric Ciccolini,F,0.04,19,19.6
+305,290973,2000-03-12,"Stockholm, SWE",Sweden,191.0,92.0,L,Philadelphia Flyers,False,2018,7,205,Philadelphia Flyers,marcus-westfalt,,,,,2018,2020-06-03,Marcus Westfält,F,0.04,26,28.6
+306,316531,1999-01-06,"Luleå, SWE",Sweden,191.0,98.0,L,St. Louis Blues,False,2017,7,206,St. Louis Blues,anton-andersson,,,,,2017,2020-06-03,Anton Andersson,D,0.06,20,6.7
+307,225136,1999-02-18,"Pardubice, CZE",Czech Rep.,184.0,92.0,L,Tampa Bay Lightning,False,2018,7,206,Tampa Bay Lightning,radim-salda,,,,,2017,2020-06-03,Radim Salda,D,0.03,9,23.3
+308,332479,2000-09-25,"Delémont, SUI",Switzerland,180.0,78.0,L,Arizona Coyotes,False,2019,7,207,Arizona Coyotes,valentin-nussbaumer,,,,,2019,2020-06-03,Valentin Nussbaumer,F,0.17,18,38.6
+309,376060,1999-03-25,"Lahti, FIN",Finland,187.0,73.0,R,Florida Panthers,False,2018,7,207,Florida Panthers,santtu-kinnunen,,,,,2017,2020-06-03,Santtu Kinnunen,D,0.01,9,0.8
+310,312205,1998-01-18,"Togliatti, RUS",Russia,185.0,84.0,L,,,2016,7,207,Washington Capitals,dmitri-zaitsev,,,,,2016,2020-06-03,Dmitri Zaitsev,D,0.0,4,4.9
+311,311901,1999-02-12,"Greenwich, CT, USA",USA,191.0,92.0,R,Edmonton Oilers,False,2017,7,208,Edmonton Oilers,philip-kemp,,,,,2017,2020-06-03,Philip Kemp,D,0.05,6,17.5
+312,284005,1999-06-01,"Zion, IL, USA",USA,183.0,86.0,R,New York Islanders,False,2019,7,209,New York Islanders,cole-coskey,,,,,2017,2020-06-03,Cole Coskey,F,0.09,6,13.0
+313,236806,1999-09-05,"Kromeriz, CZE",Czech Rep.,187.0,92.0,L,New York Rangers,True,2017,1,21,New York Rangers,filip-chytil,,,,,2017,2020-06-03,Filip Chytil,F,1.0,3,76.0
+314,290171,2001-02-25,"Blainville, QC, CAN",Canada,185.0,98.0,L,Pittsburgh Penguins,True,2019,1,21,Pittsburgh Penguins,samuel-poulin,,,,,2019,2020-06-03,Samuel Poulin,F,0.9,18,129.0
+315,273668,2000-08-14,"Oakville, ON, CAN",Canada,181.0,80.0,R,San Jose Sharks,True,2018,1,21,San Jose Sharks,ryan-merkley,,,,,2018,2020-06-03,Ryan Merkley,D,0.83,11,131.9
+316,425364,1999-07-26,"New Brighton, MN, USA",USA,183.0,79.0,R,Minnesota Wild,False,2018,7,210,Minnesota Wild,sam-hentges,,,,,2017,2020-06-03,Sam Hentges,F,0.09,7,30.3
+317,396656,2001-02-01,"Hämeenlinna, FIN",Finland,188.0,92.0,L,Nashville Predators,False,2019,7,210,Nashville Predators,juuso-parssinen,,,,,2019,2020-06-03,Juuso Pärssinen,F,0.04,29,29.5
+318,167520,1998-04-09,"Litvinov, CZE",Czech Rep.,187.0,99.0,L,,,2016,7,211,St. Louis Blues,filip-helt,,,,,2016,2020-06-03,Filip Helt,F,0.0,1,6.8
+319,420947,2000-01-19,"Togliatti, RUS",Russia,182.0,81.0,L,Toronto Maple Leafs,False,2018,7,211,Toronto Maple Leafs,semyon-kizimov,,,,,2018,2020-06-03,Semyon Kizimov,F,0.05,22,24.5
+320,359981,1999-08-14,"Ufa, RUS",Russia,185.0,83.0,L,Boston Bruins,True,2018,7,212,Boston Bruins,pavel-shen,,,,,2017,2020-06-03,Pavel Shen,F,0.05,5,14.6
+321,403916,2000-09-30,"Thorold, ON, CAN",Canada,178.0,76.0,L,Columbus Blue Jackets,False,2019,7,212,Columbus Blue Jackets,tyler-angle,,,,,2019,2020-06-03,Tyler Angle,F,0.31,16,89.7
+322,333786,1999-01-04,"Yekaterinburg, RUS",Russia,179.0,84.0,L,San Jose Sharks,True,2017,7,212,San Jose Sharks,ivan-chekhovich,,,,,2017,2020-06-03,Ivan Chekhovich,F,0.14,5,34.5
+323,348012,2001-07-07,"Stockholm, SWE",Sweden,181.0,82.0,R,Vancouver Canucks,False,2019,7,215,Vancouver Canucks,arvid-costmar,,,,,2019,2020-06-03,Arvid Costmar,F,0.1,77,49.0
+324,322072,2000-08-26,"Cochrane, AB, CAN",Canada,180.0,86.0,R,Winnipeg Jets,False,2018,7,215,Winnipeg Jets,austin-wong,,,,,2018,2020-06-03,Austin Wong,F,0.03,13,21.7
+325,312022,1999-04-03,"Lakeville, MN, USA",USA,180.0,82.0,L,Chicago Blackhawks,False,2017,7,215,Chicago Blackhawks,joshua-ess,,,,,2017,2020-06-03,Joshua Ess,D,0.04,6,20.3
+326,286939,2001-06-13,"Burnaby, BC, CAN",Canada,179.0,82.0,L,Carolina Hurricanes,False,2019,7,216,Carolina Hurricanes,massimo-rizzo,,,,,2019,2020-06-03,Massimo Rizzo,F,0.18,34,50.6
+327,297973,1999-05-26,"Ottawa, ON, CAN",Canada,190.0,91.0,L,,,2017,7,216,Nashville Predators,jacob-paquette,,,,,2017,2020-06-03,Jacob Paquette,D,0.09,6,2.5
+328,241597,2000-06-27,"Westwood, MA, USA",Canada                                                                                             /  USA,185.0,79.0,R,New York Rangers,False,2018,7,216,New York Rangers,riley-hughes,,,,,2018,2020-06-03,Riley Hughes,F,0.03,9,11.9
+329,410602,2001-05-02,"Lévis, QC, CAN",Canada,185.0,68.0,L,St. Louis Blues,False,2019,7,217,St. Louis Blues,jeremy-michel,,,,,2019,2020-06-03,Jérémy Michel,F,0.17,23,63.9
+330,281876,2000-01-10,"Fort Saskatchewan, AB, CAN",Canada,188.0,81.0,L,,,2018,7,217,Washington Capitals,eric-florchuk,,,,,2018,2020-06-03,Eric Florchuk,F,0.12,17,33.6
+331,308192,2000-01-21,"St. Paul, MN, USA",USA,193.0,94.0,L,New York Rangers,True,2018,1,22,New York Rangers,k-andre-miller,,,,,2018,2020-06-03,K'Andre Miller,D,0.62,11,63.6
+332,344751,2001-04-06,"Upplands Väsby, SWE",Sweden,184.0,92.0,L,Los Angeles Kings,True,2019,1,22,Los Angeles Kings,tobias-bjornfot,,,,,2019,2020-06-03,Tobias Björnfot,D,0.82,11,82.0
+333,284911,1999-07-01,"Laval, QC, CAN",Canada,188.0,73.0,L,Pittsburgh Penguins,True,2017,1,23,Arizona Coyotes,pierre-olivier-joseph,,,,,2017,2020-06-03,Pierre-Olivier Joseph,D,0.54,6,50.2
+334,265570,1999-11-06,"Gällivare, SWE",Sweden,184.0,84.0,L,Anaheim Ducks,True,2018,1,23,Anaheim Ducks,isac-lundestrom,,,,,2018,2020-06-03,Isac Lundeström,F,0.61,6,57.1
+335,347250,2001-05-24,"Tranås, SWE",Sweden,185.0,83.0,L,New York Islanders,True,2019,1,23,New York Islanders,simon-holmstrom,,,,,2019,2020-06-03,Simon Holmström,F,0.81,15,111.0
+336,222125,1999-06-01,"Helsinki, FIN",Finland,192.0,94.0,L,Winnipeg Jets,True,2017,1,24,Winnipeg Jets,kristian-vesalainen,,,,,2017,2020-06-03,Kristian Vesalainen,F,0.56,5,52.9
+337,316794,2000-03-23,"Västerås, SWE",Sweden,186.0,82.0,R,Minnesota Wild,False,2018,1,24,Minnesota Wild,filip-johansson,,,,,2018,2020-06-03,Filip Johansson,D,0.18,23,11.2
+338,418531,2001-07-28,"Mississauga, ON, CAN",Canada,183.0,82.0,R,Nashville Predators,True,2019,1,24,Nashville Predators,philip-tomasino,,,,,2019,2020-06-03,Philip Tomasino,F,0.82,11,161.3
+339,288045,1999-01-03,"Lakeville, MN, USA",USA,188.0,84.0,L,Montréal Canadiens,True,2017,1,25,Montréal Canadiens,ryan-poehling,,,,,2017,2020-06-03,Ryan Poehling,F,0.59,5,76.1
+340,259973,2000-02-03,"Schweinfurt, GER",Germany,187.0,85.0,R,Carolina Hurricanes,True,2018,1,25,St. Louis Blues,dominik-bokk,,,,,2018,2020-06-03,Dominik Bokk,F,0.8,10,88.6
+341,424496,2001-01-15,"Scarborough, ON, CAN",Canada,183.0,82.0,L,Washington Capitals,True,2019,1,25,Washington Capitals,connor-mcmichael,,,,,2019,2020-06-03,Connor McMichael,F,0.93,15,215.1
+342,410525,2001-03-07,"Québec, QC, CAN",Canada,175.0,73.0,L,Calgary Flames,True,2019,1,26,Calgary Flames,jakob-pelletier,,,,,2019,2020-06-03,Jakob Pelletier,F,0.79,11,138.7
+343,281697,2000-06-30,"Canmore, AB, CAN",Canada,185.0,88.0,R,Ottawa Senators,False,2018,1,26,Ottawa Senators,jacob-bernard-docker,,,,,2018,2020-06-03,Jacob Bernard-Docker,D,0.23,23,17.0
+344,284924,1999-10-07,"Chateauguay, QC, CAN",Canada,180.0,79.0,L,Chicago Blackhawks,True,2018,1,27,Chicago Blackhawks,nicolas-beaudin,,,,,2018,2020-06-03,Nicolas Beaudin,D,0.34,5,33.3
+345,240385,2000-11-29,"Denver, CO, USA",Canada                                                                                             /  USA,193.0,91.0,L,New Jersey Devils,True,2019,1,27,Tampa Bay Lightning,nolan-foote,,,,,2019,2020-06-03,Nolan Foote,F,0.65,11,62.3
+346,317025,1999-05-14,"Aurora, ON, CAN",Canada,180.0,77.0,L,Philadelphia Flyers,True,2017,1,27,Philadelphia Flyers,morgan-frost,,,,,2017,2020-06-03,Morgan Frost,F,0.72,4,62.8
+347,216102,1999-07-30,"Halifax, NS, CAN",Canada,189.0,85.0,L,Colorado Avalanche,True,2017,1,28,Ottawa Senators,shane-bowers,,,,,2017,2020-06-03,Shane Bowers,F,0.59,6,67.6
+348,384079,2000-07-27,"Piteå, SWE",Sweden,180.0,79.0,R,New York Rangers,False,2018,1,28,New York Rangers,nils-lundkvist,,,,,2018,2020-06-03,Nils Lundkvist,D,0.78,20,118.9
+349,418345,2001-05-28,"London, ON, CAN",Canada,184.0,82.0,L,Carolina Hurricanes,True,2019,1,28,Carolina Hurricanes,ryan-suzuki,,,,,2019,2020-06-03,Ryan Suzuki,F,0.74,13,158.1
+350,351169,2001-05-28,"Calgary, AB, CAN",Canada,183.0,80.0,L,Anaheim Ducks,True,2019,1,29,Anaheim Ducks,brayden-tracey,,,,,2019,2020-06-03,Brayden Tracey,F,0.74,26,125.8
+351,272221,1998-02-11,"St. Louis, MO, USA",USA,188.0,92.0,L,Boston Bruins,True,2016,1,29,Boston Bruins,trent-frederic,,,,,2016,2020-06-03,Trent Frederic,F,0.29,3,53.1
+352,277056,1999-06-17,"Oulu, FIN",Finland,183.0,87.0,R,Buffalo Sabres,True,2017,1,29,Chicago Blackhawks,henri-jokiharju,,,,,2017,2020-06-03,Henri Jokiharju,D,0.83,4,58.8
+353,289453,2000-03-07,"Uppsala, SWE",Sweden,181.0,85.0,L,Toronto Maple Leafs,True,2018,1,29,Toronto Maple Leafs,rasmus-sandin,,,,,2018,2020-06-03,Rasmus Sandin,D,0.95,7,150.5
+354,268089,2001-01-21,"St. Albert, AB, CAN",Canada,193.0,90.0,R,Chicago Blackhawks,True,2019,1,3,Chicago Blackhawks,kirby-dach,,,,,2019,2020-06-03,Kirby Dach,F,0.88,5,96.0
+355,250075,1999-07-18,"Espoo, FIN",Finland,185.0,86.0,L,Dallas Stars,True,2017,1,3,Dallas Stars,miro-heiskanen,,,,,2017,2020-06-03,Miro Heiskanen,D,1.0,3,74.2
+356,363872,2000-07-06,"Pori, FIN",Finland,188.0,88.0,L,Montréal Canadiens,True,2018,1,3,Montréal Canadiens,jesperi-kotkaniemi,,,,,2018,2020-06-03,Jesperi Kotkaniemi,F,1.0,4,194.0
+357,373899,2001-04-05,"Elmira, NY, USA",USA,191.0,95.0,L,Boston Bruins,False,2019,1,30,Boston Bruins,john-beecher,,,,,2019,2020-06-03,John Beecher,F,0.41,29,49.7
+358,249730,1999-04-22,"Vihti, FIN",Finland,179.0,87.0,L,Nashville Predators,True,2017,1,30,Nashville Predators,eeli-tolvanen,,,,,2017,2020-06-03,Eeli Tolvanen,F,0.48,5,61.8
+359,271713,2000-01-13,"Montréal, QC, CAN",Canada,186.0,88.0,L,Detroit Red Wings,True,2018,1,30,Detroit Red Wings,joe-veleno,,,,,2018,2020-06-03,Joe Veleno,F,0.64,9,84.7
+360,290138,2001-07-24,"Irvine, CA, USA",USA,183.0,78.0,L,Buffalo Sabres,False,2019,1,31,Buffalo Sabres,ryan-johnson,,,,,2019,2020-06-03,Ryan Johnson,D,0.24,16,20.5
+361,333787,1999-11-15,"St. Petersburg, RUS",Russia,193.0,91.0,L,Washington Capitals,True,2018,1,31,Washington Capitals,alexander-alexeyev,,,,,2018,2020-06-03,Alexander Alexeyev,D,0.61,5,69.6
+362,312823,1999-05-05,"Penza, RUS",Russia,191.0,96.0,L,St. Louis Blues,True,2017,1,31,St. Louis Blues,klim-kostin,,,,,2017,2020-06-03,Klim Kostin,F,0.65,6,62.8
+363,388979,2000-11-12,"Franklin Square, NY, USA",USA,191.0,88.0,R,Ottawa Senators,False,2019,2,32,Ottawa Senators,shane-pinto,,,,,2019,2020-06-03,Shane Pinto,F,0.43,12,89.6
+364,325127,2000-03-14,"Voorhees, NJ, USA",USA                                                                                             /  Sweden,193.0,100.0,L,Buffalo Sabres,True,2018,2,32,Buffalo Sabres,mattias-samuelsson,,,,,2018,2020-06-03,Mattias Samuelsson,D,0.16,13,16.9
+365,267584,1998-09-18,"St. Catharines, ON, CAN",Canada,188.0,83.0,R,Colorado Avalanche,True,2017,2,32,Colorado Avalanche,conor-timmins,,,,,2017,2020-06-03,Conor Timmins,D,0.33,3,42.2
+366,316114,2001-06-26,"Tashkent, UZB",USA,188.0,86.0,L,Los Angeles Kings,False,2019,2,33,Los Angeles Kings,arthur-kaliyev,,,,,2019,2020-06-03,Arthur Kaliyev,F,0.41,28,128.1
+367,274796,2000-07-16,"Uppsala, SWE",Sweden,180.0,83.0,L,Detroit Red Wings,False,2018,2,33,Detroit Red Wings,jonatan-berggren,,,,,2018,2020-06-03,Jonatan Berggren,F,0.5,14,81.9
+368,299488,2000-08-08,"Guelph, ON, CAN",Canada,196.0,98.0,R,Florida Panthers,True,2018,2,34,Florida Panthers,serron-noel,,,,,2018,2020-06-03,Serron Noel,F,0.3,11,44.4
+369,291905,1998-03-17,"Parkland, FL, USA",USA,191.0,90.0,R,Columbus Blue Jackets,True,2016,2,34,Columbus Blue Jackets,andrew-peeke,,,,,2016,2020-06-03,Andrew Peeke,D,0.29,3,18.9
+370,496724,2001-07-08,"Minnetonka, MN, USA",USA,173.0,72.0,R,Philadelphia Flyers,False,2019,2,34,Philadelphia Flyers,bobby-brink,,,,,2019,2020-06-03,Bobby Brink,F,0.49,25,113.3
+371,396170,2001-01-20,"Pori, FIN",Finland,194.0,88.0,R,Detroit Red Wings,False,2019,2,35,Detroit Red Wings,antti-tuomisto,,,,,2019,2020-06-03,Antti Tuomisto,D,0.17,66,16.3
+372,299117,1999-10-03,"Scottsdale, AZ, USA",Finland                                                                                             /  USA,185.0,78.0,R,Montréal Canadiens,True,2018,2,35,Montréal Canadiens,jesse-ylonen,,,,,2018,2020-06-03,Jesse Ylönen,F,0.24,7,47.9
+373,300398,1999-02-15,"London, ON, CAN",Canada,197.0,91.0,L,Philadelphia Flyers,True,2017,2,35,Philadelphia Flyers,isaac-ratcliffe,,,,,2017,2020-06-03,Isaac Ratcliffe,F,0.19,5,26.8
+374,252492,1998-04-09,"Châteauguay, QC, CAN",Canada,185.0,78.0,R,Philadelphia Flyers,True,2016,2,36,Philadelphia Flyers,pascal-laberge,,,,,2016,2020-06-03,Pascal Laberge,F,0.12,3,41.7
+375,266786,2000-03-27,"Truro, NS, CAN",Canada,186.0,87.0,L,Detroit Red Wings,True,2018,2,36,Detroit Red Wings,jared-mcisaac,,,,,2018,2020-06-03,Jared McIsaac,D,0.53,11,74.4
+376,195023,1998-02-04,"Smrcek, CZE",Czech Rep.,188.0,92.0,L,New York Rangers,True,2016,2,37,Tampa Bay Lightning,libor-hajek,,,,,2016,2020-06-03,Libor Hájek,D,0.63,2,40.4
+377,281813,2000-07-27,"Winnipeg, MB, CAN",Canada,182.0,93.0,R,Vancouver Canucks,True,2018,2,37,Vancouver Canucks,jett-woo,,,,,2018,2020-06-03,Jett Woo,D,0.21,13,35.2
+378,240720,1998-11-18,"Tyresö, SWE",Sweden,184.0,87.0,L,Buffalo Sabres,False,2017,2,37,Buffalo Sabres,marcus-davidsson,,,,,2017,2020-06-03,Marcus Davidsson,F,0.06,4,50.1
+379,335712,2000-09-25,"Chambly, QC, CAN",Canada,193.0,90.0,R,Edmonton Oilers,True,2019,2,38,Edmonton Oilers,raphael-lavoie,,,,,2019,2020-06-03,Raphaël Lavoie,F,0.43,10,80.0
+380,212379,1998-10-20,"Östervåla, SWE",Sweden,187.0,85.0,R,Detroit Red Wings,True,2017,2,38,Detroit Red Wings,gustav-lindstrom,,,,,2017,2020-06-03,Gustav Lindström,D,0.06,3,12.8
+381,396529,2000-01-06,"Moskva, RUS",Russia,181.0,84.0,L,Montréal Canadiens,True,2018,2,38,Montréal Canadiens,alexander-romanov,,,,,2018,2020-06-03,Alexander Romanov,D,0.11,14,11.1
+382,240112,1998-06-06,"Maple, ON, CAN",Canada,178.0,93.0,L,Dallas Stars,True,2016,2,38,Florida Panthers,adam-mascherin,,,,,2016,2020-06-03,Adam Mascherin,F,0.15,3,46.2
+383,201455,1999-07-22,"Arcadia, CA, USA",USA,188.0,91.0,L,Dallas Stars,True,2017,2,39,Dallas Stars,jason-robertson,,,,,2017,2020-06-03,Jason Robertson,F,0.46,6,62.4
+384,201473,1999-09-16,"St. Louis, MO, USA",USA                                                                                             /  Canada,191.0,87.0,L,Ottawa Senators,True,2018,1,4,Ottawa Senators,brady-tkachuk,,,,,2018,2020-06-03,Brady Tkachuk,F,1.0,3,68.2
+385,326522,2001-06-13,"Cranbrook, BC, CAN",Canada,185.0,88.0,L,Colorado Avalanche,True,2019,1,4,Colorado Avalanche,bowen-byram,,,,,2019,2020-06-03,Bowen Byram,D,0.94,20,138.9
+386,311906,2000-12-20,"Bockträsk, SWE",Sweden,176.0,86.0,L,Vancouver Canucks,True,2019,2,40,Vancouver Canucks,nils-hoglander,,,,,2019,2020-06-03,Nils Höglander,F,0.37,16,59.0
+387,271502,1999-09-21,"Mississauga, ON, CAN",Canada,191.0,91.0,L,Edmonton Oilers,True,2018,2,40,Edmonton Oilers,ryan-mcleod,,,,,2018,2020-06-03,Ryan McLeod,F,0.4,5,45.5
+388,284816,1999-01-09,"Tampere, FIN",Finland,178.0,67.0,L,Florida Panthers,True,2017,2,40,Florida Panthers,aleksi-heponiemi,,,,,2017,2020-06-03,Aleksi Heponiemi,F,0.36,5,54.2
+389,283932,2000-01-24,"Montréal, QC, CAN",USA                                                                                             /  Canada,191.0,87.0,R,New York Islanders,True,2018,2,41,New York Islanders,bode-wilde,,,,,2018,2020-06-03,Bode Wilde,D,0.48,8,68.1
+390,278859,1999-09-12,"Calgary, AB, CAN",Canada,180.0,89.0,L,Los Angeles Kings,True,2017,2,41,Los Angeles Kings,jaret-anderson-dolan,,,,,2017,2020-06-03,Jaret Anderson-Dolan,F,0.49,6,57.5
+391,295911,2001-01-29,"Yorkton, SK, CAN",Canada,188.0,87.0,R,Vegas Golden Knights,True,2019,2,41,Vegas Golden Knights,kaedan-korczak,,,,,2019,2020-06-03,Kaedan Korczak,D,0.51,20,110.8
+392,283916,2000-02-03,"Winnetka, IL, USA",USA,183.0,84.0,L,Carolina Hurricanes,False,2018,2,42,Carolina Hurricanes,jack-drury,,,,,2018,2020-06-03,Jack Drury,F,0.25,19,35.2
+393,514167,2001-06-19,"Yaroslavl, RUS",Russia,183.0,82.0,L,Minnesota Wild,False,2019,2,42,Minnesota Wild,vladislav-firstov,,,,,2019,2020-06-03,Vladislav Firstov,F,0.25,26,49.8
+394,315969,2001-06-05,"Wilmette, IL, USA",USA,198.0,90.0,L,Chicago Blackhawks,False,2019,2,43,Chicago Blackhawks,alex-vlasic,,,,,2019,2020-06-03,Alex Vlasic,D,0.07,18,5.0
+395,201527,1999-01-24,"Hermantown, MN, USA",USA,193.0,98.0,L,Winnipeg Jets,True,2017,2,43,Winnipeg Jets,dylan-samberg,,,,,2017,2020-06-03,Dylan Samberg,D,0.22,7,33.2
+396,396204,2000-07-22,"Moskva, RUS",Russia,173.0,69.0,L,New York Islanders,False,2018,2,43,New York Islanders,ruslan-iskhakov,,,,,2018,2020-06-03,Ruslan Iskhakov,F,0.27,13,46.3
+397,265297,2000-07-20,"Bollnäs, SWE",Sweden,193.0,94.0,R,Dallas Stars,False,2018,2,44,Dallas Stars,albin-eriksson,,,,,2018,2020-06-03,Albin Eriksson,F,0.16,18,40.9
+398,269859,1998-06-18,"Vancouver, BC, CAN",Canada                                                                                             /  Russia,188.0,93.0,L,Tampa Bay Lightning,True,2016,2,44,Tampa Bay Lightning,boris-katchouk,,,,,2016,2020-06-03,Boris Katchouk,F,0.17,3,19.3
+399,262145,1999-04-17,"Härnösand, SWE",Sweden,181.0,82.0,R,Arizona Coyotes,False,2017,2,44,Arizona Coyotes,filip-westerlund,,,,,2017,2020-06-03,Filip Westerlund,D,0.02,12,10.1
+400,418060,2001-02-26,"Hamilton, ON, CAN",Canada,180.0,78.0,L,Carolina Hurricanes,False,2019,2,44,Carolina Hurricanes,jamieson-rees,,,,,2019,2020-06-03,Jamieson Rees,F,0.44,19,108.2
+401,296904,1999-09-13,"Saint-Martin-d'Hères, FRA",France,184.0,88.0,L,Columbus Blue Jackets,True,2017,2,45,Columbus Blue Jackets,alexandre-texier,,,,,2017,2020-06-03,Alexandre Texier,F,1.0,3,70.1
+402,229559,1998-04-10,"Ridgefield, CT, USA",USA                                                                                             /  Canada,180.0,84.0,L,Chicago Blackhawks,True,2016,2,45,Chicago Blackhawks,chad-krys,,,,,2016,2020-06-03,Chad Krys,D,0.06,3,38.0
+403,450909,2001-01-23,"Tver, RUS",Russia,193.0,91.0,L,Nashville Predators,True,2019,2,45,Nashville Predators,yegor-afanasyev,,,,,2019,2020-06-03,Yegor Afanasyev,F,0.42,18,123.8
+404,274991,1999-10-06,"Bratislava, SVK",Slovakia,188.0,88.0,L,Washington Capitals,True,2018,2,46,Washington Capitals,martin-fehervary,,,,,2018,2020-06-03,Martin Fehérváry,D,0.37,5,47.2
+405,197821,1998-10-13,"Espoo, FIN",Finland,185.0,85.0,L,New York Islanders,False,2017,2,46,New York Islanders,robin-salo,,,,,2017,2020-06-03,Robin Salo,D,0.07,4,40.3
+406,273622,1999-09-13,"King City, ON, CAN",Canada,191.0,86.0,L,Ottawa Senators,True,2017,2,47,Ottawa Senators,alex-formenton,,,,,2017,2020-06-03,Alex Formenton,F,0.53,5,85.8
+407,251476,1998-05-12,"Roberval, QC, CAN",Canada,178.0,73.0,L,Colorado Avalanche,True,2016,2,47,Nashville Predators,samuel-girard,,,,,2016,2020-06-03,Samuel Girard,D,1.0,2,49.2
+408,369942,2001-03-26,"Farmington, MN, USA",USA,191.0,88.0,R,Colorado Avalanche,False,2019,2,47,Colorado Avalanche,drew-helleson,,,,,2019,2020-06-03,Drew Helleson,D,0.23,17,23.5
+409,273613,1999-10-13,"King City, ON, CAN",Canada,187.0,84.0,R,Washington Capitals,True,2018,2,47,Washington Capitals,kody-clark,,,,,2018,2020-06-03,Kody Clark,F,0.13,6,18.0
+410,398450,2001-01-04,"Kazan, RUS",Russia,180.0,83.0,L,San Jose Sharks,True,2019,2,48,San Jose Sharks,artemi-knyazev,,,,,2019,2020-06-03,Artemi Knyazev,D,0.37,20,96.5
+411,281730,2000-03-03,"Calgary, AB, CAN",Canada,183.0,80.0,L,Ottawa Senators,False,2018,2,48,Ottawa Senators,jonny-tychonick,,,,,2018,2020-06-03,Jonny Tychonick,D,0.16,10,23.6
+412,245622,1998-09-17,"King City, ON, CAN",Canada,180.0,84.0,L,San Jose Sharks,True,2017,2,49,San Jose Sharks,mario-ferraro,,,,,2017,2020-06-03,Mario Ferraro,D,0.72,2,32.2
+413,392162,2000-07-21,"Barnaul, RUS",Russia,189.0,82.0,R,Columbus Blue Jackets,False,2018,2,49,Columbus Blue Jackets,kirill-marchenko,,,,,2018,2020-06-03,Kirill Marchenko,F,0.1,16,7.4
+414,326633,2001-03-09,"Edmonton, AB, CAN",Canada,192.0,91.0,L,New York Rangers,True,2019,2,49,New York Rangers,matthew-robertson,,,,,2019,2020-06-03,Matthew Robertson,D,0.42,18,83.7
+415,317885,2000-06-09,"Kitchener, ON, CAN",Canada,186.0,86.0,L,Arizona Coyotes,True,2018,1,5,Arizona Coyotes,barrett-hayton,,,,,2018,2020-06-03,Barrett Hayton,F,0.9,7,65.4
+416,290043,2001-02-26,"Island Lake, IL, USA",USA,180.0,84.0,L,Los Angeles Kings,True,2019,1,5,Los Angeles Kings,alex-turcotte,,,,,2019,2020-06-03,Alex Turcotte,F,0.67,17,80.2
+417,201534,1999-01-08,"Longueuil, QC, CAN",Canada,189.0,94.0,L,Anaheim Ducks,True,2017,2,50,Anaheim Ducks,maxime-comtois,,,,,2017,2020-06-03,Maxime Comtois,F,0.49,6,65.7
+418,281968,2000-01-13,"Linköping, SWE",Sweden,193.0,93.0,L,Philadelphia Flyers,False,2018,2,50,Philadelphia Flyers,adam-ginning,,,,,2018,2020-06-03,Adam Ginning,D,0.24,18,33.4
+419,288459,2000-03-14,"Göteborg, SWE",Sweden,182.0,88.0,R,Los Angeles Kings,True,2019,2,50,Los Angeles Kings,samuel-fagemo,,,,,2018,2020-06-03,Samuel Fagemo,F,0.27,15,39.9
+420,108472,1998-06-05,"Regina, SK, CAN",Canada,183.0,80.0,L,Los Angeles Kings,True,2016,2,51,Los Angeles Kings,kale-clague,,,,,2016,2020-06-03,Kale Clague,D,0.28,3,53.1
+421,254662,1998-10-10,"Val d'Or, QC, CAN",Canada,185.0,85.0,L,,,2017,2,51,Pittsburgh Penguins,zachary-lauzon,Retired,,,,2017,2020-06-03,Zachary Lauzon,D,0.51,13,82.5
+422,344757,2000-10-08,"Stockholm, SWE",Sweden,187.0,91.0,R,Winnipeg Jets,False,2019,2,51,Winnipeg Jets,simon-lundmark,,,,,2019,2020-06-03,Simon Lundmark,D,0.07,13,5.4
+423,364033,2000-01-02,"Scarborough, ON, CAN",Canada                                                                                             /  USA,183.0,82.0,R,Los Angeles Kings,True,2018,2,51,Los Angeles Kings,akil-thomas,,,,,2018,2020-06-03,Akil Thomas,F,0.48,8,61.8
+424,490232,2001-05-26,"Minsk, BLR",Belarus,185.0,86.0,L,Florida Panthers,True,2019,2,52,Florida Panthers,vladislav-kolyachonok,,,,,2019,2020-06-03,Vladislav Kolyachonok,D,0.46,18,98.2
+425,272217,1998-09-20,"St. Louis, MO, USA",USA,188.0,99.0,R,Carolina Hurricanes,False,2017,2,52,Carolina Hurricanes,luke-martin,,,,,2017,2020-06-03,Luke Martin,D,0.03,4,9.2
+426,359539,2001-09-11,"Arcadia, CA, USA",USA,175.0,73.0,L,Toronto Maple Leafs,True,2019,2,53,Toronto Maple Leafs,nicholas-robertson,,,,,2019,2020-06-03,Nicholas Robertson,F,0.66,15,160.1
+427,278861,2000-04-11,"Brandon, MB, CAN",Canada,178.0,82.0,R,Minnesota Wild,True,2018,2,53,Pittsburgh Penguins,calen-addison,,,,,2018,2020-06-03,Calen Addison,D,0.47,11,56.8
+428,284096,1999-02-18,"Windsor, ON, CAN",Canada,185.0,78.0,R,Boston Bruins,True,2017,2,53,Boston Bruins,jack-studnicka,,,,,2017,2020-06-03,Jack Studnicka,F,0.56,5,95.4
+429,335689,2000-02-06,"Rouen, FRA",Canada                                                                                             /  France,188.0,88.0,L,Anaheim Ducks,True,2018,2,54,Anaheim Ducks,benoit-olivier-groulx,,,,,2018,2020-06-03,Benoit-Olivier Groulx,F,0.19,12,9.3
+430,385680,2001-01-24,"East Islip, NY, USA",USA,178.0,77.0,L,Detroit Red Wings,False,2019,2,54,Detroit Red Wings,robert-mastrosimone,,,,,2019,2020-06-03,Robert Mastrosimone,F,0.16,19,37.8
+431,248583,2000-06-27,"New Westminster, BC, CAN",Canada,200.0,109.0,L,New Jersey Devils,True,2018,2,55,Arizona Coyotes,kevin-bahl,,,,,2018,2020-06-03,Kevin Bahl,D,0.24,18,31.0
+432,252476,1998-10-12,"Whitby, ON, CAN",Canada,188.0,95.0,L,Vancouver Canucks,True,2017,2,55,Vancouver Canucks,jonah-gadjovich,,,,,2017,2020-06-03,Jonah Gadjovich,F,0.13,3,20.1
+433,281939,2000-10-30,"Leduc, AB, CAN",Canada,190.0,91.0,L,San Jose Sharks,True,2019,2,55,San Jose Sharks,dillon-hamaliuk,,,,,2019,2020-06-03,Dillon Hamaliuk,F,0.18,12,11.4
+434,201551,1999-06-17,"Yorkton, SK, CAN",Canada,186.0,87.0,R,Montréal Canadiens,True,2017,2,56,Montréal Canadiens,josh-brook,,,,,2017,2020-06-03,Josh Brook,D,0.27,5,38.9
+435,257755,1999-04-30,"Calgary, AB, CAN",Canada,193.0,91.0,R,Washington Capitals,True,2019,2,56,Washington Capitals,brett-leason,,,,,2017,2020-06-03,Brett Leason,F,0.32,5,45.0
+436,316535,2000-02-08,"Piteå, SWE",Sweden,189.0,89.0,L,Montréal Canadiens,False,2018,2,56,Montréal Canadiens,jacob-olofsson,,,,,2018,2020-06-03,Jacob Olofsson,F,0.51,14,71.9
+437,313354,2000-02-10,"Järna, SWE",Sweden,183.0,84.0,R,Anaheim Ducks,True,2018,2,57,Boston Bruins,axel-andersson,,,,,2018,2020-06-03,Axel Andersson,D,0.31,11,36.2
+438,356985,2000-12-09,"Laval, QC, CAN",Canada,193.0,96.0,L,New York Islanders,True,2019,2,57,New York Islanders,samuel-bolduc,,,,,2019,2020-06-03,Samuel Bolduc,D,0.21,12,11.5
+439,201362,1999-01-18,"St. Albert, AB, CAN",Canada,180.0,79.0,R,Chicago Blackhawks,True,2017,2,57,Chicago Blackhawks,ian-mitchell,,,,,2017,2020-06-03,Ian Mitchell,D,0.39,7,65.2
+440,221341,1999-04-14,"Espoo, FIN",Finland,180.0,78.0,R,Montréal Canadiens,False,2017,2,58,Montréal Canadiens,joni-ikonen,,,,,2017,2020-06-03,Joni Ikonen,F,0.37,26,74.6
+441,293387,2000-06-29,"Sundsvall, SWE",Sweden,185.0,86.0,L,Pittsburgh Penguins,True,2018,2,58,Pittsburgh Penguins,filip-hallander,,,,,2018,2020-06-03,Filip Hållander,F,0.42,16,63.2
+442,376987,2001-02-05,"Malmö, SWE",Sweden,176.0,79.0,L,New York Rangers,False,2019,2,58,New York Rangers,karl-henriksson,,,,,2019,2020-06-03,Karl Henriksson,F,0.17,89,41.5
+443,302228,1999-03-06,"Joensuu, FIN",Finland,200.0,95.0,R,Toronto Maple Leafs,False,2017,2,59,Toronto Maple Leafs,eemeli-rasanen,,,,,2017,2020-06-03,Eemeli Räsänen,D,0.05,6,6.4
+444,335707,2000-02-06,"Lachine, QC, CAN",Canada,177.0,78.0,L,Tampa Bay Lightning,True,2018,2,59,Tampa Bay Lightning,gabriel-fortier,,,,,2018,2020-06-03,Gabriel Fortier,F,0.38,16,57.2
+445,201704,1999-04-01,"Winnipeg, MB, CAN",Canada,189.0,84.0,R,Vegas Golden Knights,True,2017,1,6,Vegas Golden Knights,cody-glass,,,,,2017,2020-06-03,Cody Glass,F,1.0,3,103.4
+446,236471,1999-11-27,"Pardubice, CZE",Czech Rep.,183.0,89.0,L,Detroit Red Wings,True,2018,1,6,Detroit Red Wings,filip-zadina,,,,,2018,2020-06-03,Filip Zadina,F,1.0,3,90.6
+447,293796,2000-04-11,"Tingsryd, SWE",Sweden,187.0,89.0,L,Winnipeg Jets,True,2018,2,60,Winnipeg Jets,david-gustafsson,,,,,2018,2020-06-03,David Gustafsson,F,0.7,10,102.1
+448,349991,2001-01-04,"Karlstad, SWE",Sweden,183.0,76.0,L,Detroit Red Wings,False,2019,2,60,Detroit Red Wings,albert-johansson,,,,,2019,2020-06-03,Albert Johansson,D,0.21,32,30.8
+449,275608,1999-02-18,"Chateauguay, QC, CAN",Canada,178.0,84.0,L,Anaheim Ducks,True,2017,2,60,Anaheim Ducks,antoine-morand,,,,,2017,2020-06-03,Antoine Morand,F,0.3,5,41.7
+450,398144,2000-12-04,"Chelyabinsk, RUS",Russia,185.0,88.0,L,New Jersey Devils,True,2019,2,61,New Jersey Devils,nikita-okhotyuk,,,,,2019,2020-06-03,Nikita Okhotyuk,D,0.36,11,38.2
+451,396897,2000-05-05,"Verkhnyaya Salda, RUS",Russia,186.0,89.0,R,Vegas Golden Knights,False,2018,2,61,Vegas Golden Knights,ivan-d.-morozov,,,,,2018,2020-06-03,Ivan D. Morozov,F,0.17,19,35.2
+452,269306,1999-02-19,"Edina, MN, USA",USA,185.0,84.0,L,Nashville Predators,False,2017,2,61,Nashville Predators,grant-mismash,,,,,2017,2020-06-03,Grant Mismash,F,0.08,7,14.5
+453,238111,2000-09-16,"Burgwedel, GER",Russia,180.0,84.0,L,St. Louis Blues,True,2019,2,62,St. Louis Blues,nikita-alexandrov,,,,,2019,2020-06-03,Nikita Alexandrov,F,0.19,19,18.3
+454,279125,1999-03-10,"Raleigh, NC, USA",Canada,180.0,86.0,L,Vegas Golden Knights,True,2017,2,62,Vegas Golden Knights,jake-leschyshyn,,,,,2017,2020-06-03,Jake Leschyshyn,F,0.11,5,25.6
+455,175894,1998-06-08,"Kuopio, FIN",Finland,197.0,86.0,L,Edmonton Oilers,True,2016,3,63,Edmonton Oilers,markus-niemelainen,,,,,2016,2020-06-03,Markus Niemeläinen,D,0.02,4,24.1
+456,265608,1999-08-25,"Karlstad, SWE",Sweden,180.0,99.0,R,New Jersey Devils,True,2017,3,63,New Jersey Devils,fabian-zetterlund,,,,,2017,2020-06-03,Fabian Zetterlund,F,0.32,5,41.9
+457,363685,2000-01-06,"Toronto, ON, CAN",Canada,191.0,91.0,L,Minnesota Wild,False,2018,3,63,Minnesota Wild,jack-mcbain,,,,,2018,2020-06-03,Jack McBain,F,0.21,14,33.7
+458,344235,2000-04-12,"Kramfors, SWE",Sweden,182.0,81.0,L,Montréal Canadiens,False,2019,3,64,Montréal Canadiens,mattias-norlinder,,,,,2018,2020-06-03,Mattias Norlinder,D,0.23,16,38.9
+459,296339,2001-02-27,"Chateauguay, QC, CAN",Canada,180.0,70.0,L,Nashville Predators,False,2019,3,65,Nashville Predators,alexander-campbell,,,,,2019,2020-06-03,Alexander Campbell,F,0.2,46,49.8
+460,220099,1999-03-31,"Rungsted, DEN",Denmark,188.0,88.0,L,Vegas Golden Knights,True,2017,3,65,Vegas Golden Knights,jonas-rondbjerg,,,,,2017,2020-06-03,Jonas Røndbjerg,F,0.12,16,25.6
+461,247318,2000-09-15,"Nymburk, CZE",Czech Rep.,185.0,82.0,L,Arizona Coyotes,True,2018,3,65,Arizona Coyotes,jan-jenik,,,,,2019,2020-06-03,Jan Jeník,F,0.5,12,136.7
+462,272169,1999-05-17,"Plano, TX, USA",USA,191.0,87.0,L,Florida Panthers,True,2017,3,66,Florida Panthers,max-gildon,,,,,2017,2020-06-03,Max Gildon,D,0.22,7,36.2
+463,342488,2001-03-22,"Märsta, SWE",Sweden,182.0,85.0,L,Detroit Red Wings,False,2019,3,66,Detroit Red Wings,albin-grewe,,,,,2019,2020-06-03,Albin Grewe,F,0.11,45,38.5
+464,404742,2000-06-24,"Oshawa, ON, CAN",Canada,180.0,76.0,R,Montréal Canadiens,True,2018,3,66,Montréal Canadiens,cameron-hillis,,,,,2018,2020-06-03,Cameron Hillis,F,0.43,13,89.1
+465,283940,2000-08-06,"West Bloomfield Township, MI, USA",USA,192.0,93.0,R,Chicago Blackhawks,True,2018,3,67,Detroit Red Wings,alec-regula,,,,,2018,2020-06-03,Alec Regula,D,0.17,12,7.8
+466,258428,1999-01-12,"Coquitlam, BC, CAN",Canada,188.0,90.0,L,,,2017,3,68,Montréal Canadiens,scott-walford,,,,,2017,2020-06-03,Scott Walford,D,0.13,6,9.7
+467,364649,2000-10-18,"Glen Allen, VA, USA",USA,178.0,80.0,L,New York Rangers,False,2019,3,68,New York Rangers,zachary-jones,,,,,2019,2020-06-03,Zachary Jones,D,0.07,16,17.2
+468,201489,1999-11-09,"Deerfield Beach, FL, USA",USA                                                                                             /  Canada,180.0,69.0,R,Los Angeles Kings,True,2018,3,68,Vancouver Canucks,tyler-madden,,,,,2018,2020-06-03,Tyler Madden,F,0.3,10,86.4
+469,273678,1999-07-14,"Mississauga, ON, CAN",Canada,192.0,82.0,R,Chicago Blackhawks,True,2017,3,69,Arizona Coyotes,mackenzie-entwistle,,,,,2017,2020-06-03,MacKenzie Entwistle,F,0.18,6,32.9
+470,268432,2000-02-28,"Naples, FL, USA",USA,178.0,86.0,L,Chicago Blackhawks,False,2018,3,69,Chicago Blackhawks,jake-wise,,,,,2018,2020-06-03,Jake Wise,F,0.05,14,28.8
+471,350236,2000-08-02,"Kamloops, BC, CAN",Canada                                                                                             /  Czech Rep.,185.0,93.0,L,Florida Panthers,True,2019,3,69,Florida Panthers,john-ludvig,,,,,2018,2020-06-03,John Ludvig,D,0.29,12,44.3
+472,201671,1999-10-14,"Orlando, FL, USA",USA,178.0,77.0,L,Vancouver Canucks,True,2018,1,7,Vancouver Canucks,quinn-hughes,,,,,2018,2020-06-03,Quinn Hughes,D,1.0,3,83.7
+473,286938,2001-02-09,"Whitehorse, YT, CAN",Canada,191.0,84.0,R,Buffalo Sabres,True,2019,1,7,Buffalo Sabres,dylan-cozens,,,,,2019,2020-06-03,Dylan Cozens,F,0.84,15,136.3
+474,313706,1998-08-04,"St. Petersburg, RUS",Russia,181.0,87.0,L,Chicago Blackhawks,True,2017,3,70,Chicago Blackhawks,andrei-altybarmakyan,,,,,2016,2020-06-03,Andrei Altybarmakyan,F,0.03,4,27.1
+475,395127,2000-10-20,"Minsk, BLR",Russia                                                                                             /  Belarus,189.0,80.0,L,New Jersey Devils,False,2019,3,70,New Jersey Devils,daniil-misyul,,,,,2019,2020-06-03,Daniil Misyul,D,0.04,21,2.8
+476,304366,1999-09-23,"Mountain View, CA, USA",Sweden                                                                                             /  USA,183.0,80.0,L,New York Rangers,False,2018,3,70,New York Rangers,jakob-ragnarsson,,,,,2018,2020-06-03,Jakob Ragnarsson,D,0.01,12,4.9
+477,321687,2000-07-07,"Haverhill, MA, USA",USA,180.0,81.0,L,Montréal Canadiens,False,2018,3,71,Montréal Canadiens,jordan-harris,,,,,2018,2020-06-03,Jordan Harris,D,0.05,18,15.8
+478,247061,1998-08-29,"Nanaimo, BC, CAN",Canada,189.0,102.0,L,Colorado Avalanche,True,2016,3,71,Colorado Avalanche,josh-anderson,,,,,2016,2020-06-03,Josh Anderson,D,0.03,3,14.1
+479,221328,1998-11-16,"Espoo, FIN",Finland,188.0,90.0,L,Detroit Red Wings,False,2017,3,71,Detroit Red Wings,kasper-kotkansalo,,,,,2017,2020-06-03,Kasper Kotkansalo,D,0.01,4,1.8
+480,226438,1998-04-27,"Canton, NY, USA",USA,193.0,93.0,L,Toronto Maple Leafs,False,2016,3,72,Toronto Maple Leafs,james-greenway,,,,,2016,2020-06-03,James Greenway,D,0.03,4,5.5
+481,284030,1999-03-20,"White Lake Township, MI, USA",USA,190.0,94.0,R,Philadelphia Flyers,False,2019,3,72,Philadelphia Flyers,ronald-attard,,,,,2017,2020-06-03,Ronald Attard,D,0.09,7,29.0
+482,247964,1998-06-19,"Roseville, MN, USA",USA,180.0,92.0,R,New Jersey Devils,True,2016,3,73,New Jersey Devils,joey-anderson,,,,,2016,2020-06-03,Joey Anderson,F,0.21,3,30.8
+483,397004,2001-01-11,"Tampere, FIN",Finland,183.0,75.0,L,Carolina Hurricanes,False,2019,3,73,Carolina Hurricanes,patrik-puistola,,,,,2019,2020-06-03,Patrik Puistola,F,0.1,27,15.1
+484,201293,1999-06-14,"Winnipeg, MB, CAN",Canada,185.0,89.0,R,Carolina Hurricanes,True,2017,3,73,Carolina Hurricanes,stelio-mattheos,,,,,2017,2020-06-03,Stelio Mattheos,F,0.14,5,37.6
+485,365043,2000-05-24,"Eau Claire, WI, USA",USA,185.0,88.0,R,Arizona Coyotes,False,2018,3,73,Arizona Coyotes,ty-emberson,,,,,2018,2020-06-03,Ty Emberson,D,0.13,11,22.1
+486,296698,2001-01-11,"Montréal, QC, CAN",Canada,182.0,93.0,R,Pittsburgh Penguins,True,2019,3,74,Pittsburgh Penguins,nathan-legare,,,,,2019,2020-06-03,Nathan Légaré,F,0.2,19,82.6
+487,360140,2000-05-04,"Helsinki, FIN",Finland,174.0,77.0,R,Chicago Blackhawks,False,2018,3,74,Chicago Blackhawks,niklas-nordgren,,,,,2018,2020-06-03,Niklas Nordgren,F,0.14,19,51.5
+488,294263,2000-03-12,"Karlstad, SWE",Sweden,189.0,90.0,L,Dallas Stars,False,2018,3,75,Dallas Stars,oskar-back,,,,,2018,2020-06-03,Oskar Bäck,F,0.06,17,16.3
+489,283248,1999-02-25,"Waterloo, ON, CAN",Canada,191.0,82.0,R,New Jersey Devils,True,2017,3,75,Arizona Coyotes,nate-schnarr,,,,,2017,2020-06-03,Nate Schnarr,F,0.16,6,25.0
+490,291514,2001-05-10,"Saskatoon, SK, CAN",Canada,185.0,81.0,L,Minnesota Wild,True,2019,3,75,Minnesota Wild,adam-beckman,,,,,2019,2020-06-03,Adam Beckman,F,0.44,21,145.1
+491,315260,2000-09-15,"Moskva, RUS",Russia,180.0,74.0,R,Toronto Maple Leafs,True,2018,3,76,Toronto Maple Leafs,semyon-der-arguchintsev,,,,,2019,2020-06-03,Semyon Der-Arguchintsev,F,0.33,17,90.5
+492,312824,1999-08-17,"Moskva, RUS",Russia,185.0,79.0,L,Tampa Bay Lightning,True,2017,3,76,Tampa Bay Lightning,alexei-lipanov,,,,,2017,2020-06-03,Alexei Lipanov,F,0.2,12,30.6
+493,350216,2000-09-30,"North Vancouver, BC, CAN",Canada,183.0,88.0,L,Montréal Canadiens,False,2019,3,77,Montréal Canadiens,gianni-fairbrother,,,,,2019,2020-06-03,Gianni Fairbrother,D,0.26,12,47.2
+494,273830,2000-03-28,"Praha, CZE",Czech Rep.,183.0,77.0,L,Boston Bruins,True,2018,3,77,Boston Bruins,jakub-lauko,,,,,2018,2020-06-03,Jakub Lauko,F,0.22,8,35.0
+495,254039,1998-02-21,"Cambridge, ON, CAN",Canada,189.0,92.0,L,,,2016,3,77,Pittsburgh Penguins,connor-hall,,,,,2016,2020-06-03,Connor Hall,D,0.1,17,9.9
+496,313516,1999-05-08,"Newburyport, MA, USA",USA,185.0,82.0,L,New York Islanders,False,2017,3,77,New York Islanders,benjamin-mirageas,,,,,2017,2020-06-03,Benjamin Mirageas,D,0.01,6,8.8
+497,412976,2001-07-25,"Trois-Rivières, QC, CAN",Canada,188.0,87.0,R,Colorado Avalanche,False,2019,3,78,Colorado Avalanche,alex-beaucage,,,,,2019,2020-06-03,Alex Beaucage,F,0.15,26,79.2
+498,375954,2000-05-31,"Naantali, FIN",Finland,189.0,94.0,L,Colorado Avalanche,False,2018,3,78,Colorado Avalanche,sampo-ranta,,,,,2018,2020-06-03,Sampo Ranta,F,0.13,16,38.3
+499,364230,2000-02-14,"Grand Rapids, MN, USA",USA,180.0,73.0,L,Anaheim Ducks,False,2018,3,79,Anaheim Ducks,blake-mclaughlin,,,,,2018,2020-06-03,Blake McLaughlin,F,0.11,17,44.0
+500,247919,1998-12-27,"Wetaskiwin, AB, CAN",Canada,183.0,86.0,R,,,2017,3,79,Detroit Red Wings,lane-zablocki,,,,,2017,2020-06-03,Lane Zablocki,F,0.15,6,31.2
+501,398168,2000-10-26,"Nizhny Tagil, RUS",Russia,185.0,79.0,L,Vegas Golden Knights,False,2019,3,79,Vegas Golden Knights,pavel-dorofeyev,,,,,2019,2020-06-03,Pavel Dorofeyev,F,0.07,20,15.4
+502,349467,2001-06-25,"Örebro, SWE",Sweden,191.0,92.0,L,Edmonton Oilers,True,2019,1,8,Edmonton Oilers,philip-broberg,,,,,2019,2020-06-03,Philip Broberg,D,0.74,33,82.8
+503,265684,2000-08-15,"Falun, SWE",Sweden,182.0,82.0,R,Chicago Blackhawks,True,2018,1,8,Chicago Blackhawks,adam-boqvist,,,,,2018,2020-06-03,Adam Boqvist,D,1.0,4,142.4
+504,286955,2001-04-24,"Waconia, MN, USA",Canada                                                                                             /  USA,183.0,79.0,R,New Jersey Devils,False,2019,3,80,New Jersey Devils,graeme-clarke,,,,,2019,2020-06-03,Graeme Clarke,F,0.34,19,140.6
+505,319507,2000-01-23,"Leksand, SWE",Sweden,173.0,75.0,R,Columbus Blue Jackets,False,2018,3,80,Columbus Blue Jackets,marcus-karlberg,,,,,2018,2020-06-03,Marcus Karlberg,F,0.22,20,44.0
+506,300597,1999-04-21,"North Falmouth, MA, USA",USA,180.0,82.0,R,New Jersey Devils,False,2017,3,81,New Jersey Devils,reilly-walsh,,,,,2017,2020-06-03,Reilly Walsh,D,0.14,10,27.7
+507,299929,1999-08-18,"Kelowna, BC, CAN",Canada,188.0,79.0,R,Detroit Red Wings,False,2018,3,81,Detroit Red Wings,seth-barton,,,,,2017,2020-06-03,Seth Barton,D,0.05,10,12.1
+508,431915,2001-04-25,"Kitchener, ON, CAN",Canada,188.0,83.0,R,Florida Panthers,True,2019,3,81,Florida Panthers,cole-schwindt,,,,,2019,2020-06-03,Cole Schwindt,F,0.28,18,115.2
+509,418533,2001-06-08,"Oakville, ON, CAN",Canada,191.0,96.0,L,New Jersey Devils,False,2019,3,82,New Jersey Devils,michael-vukojevic,,,,,2019,2020-06-03,Michael Vukojevic,D,0.37,21,82.5
+510,299556,1999-05-05,"Greely, ON, CAN",Canada,191.0,83.0,R,Arizona Coyotes,True,2017,3,82,Arizona Coyotes,cameron-crotty,,,,,2017,2020-06-03,Cameron Crotty,D,0.02,6,11.8
+511,339599,1999-12-29,"Nizhnekamsk, RUS",Russia,186.0,74.0,L,Los Angeles Kings,False,2018,3,82,Los Angeles Kings,bulat-shafigullin,,,,,2018,2020-06-03,Bulat Shafigullin,F,0.07,9,39.6
+512,201715,2000-01-05,"Winnipeg, MB, CAN",Canada,183.0,84.0,L,,,2018,3,83,Toronto Maple Leafs,riley-stotts,,,,,2018,2020-06-03,Riley Stotts,F,0.25,12,49.7
+513,273617,1999-03-06,"London, ON, CAN",Canada,188.0,87.0,L,San Jose Sharks,True,2017,3,83,Detroit Red Wings,zach-gallant,,,,,2017,2020-06-03,Zach Gallant,F,0.12,6,30.3
+514,395069,2000-10-05,"Jyväskylä, FIN",Finland,179.0,81.0,R,Carolina Hurricanes,False,2019,3,83,Carolina Hurricanes,anttoni-honka,,,,,2019,2020-06-03,Anttoni Honka,D,0.2,17,49.2
+515,312819,1999-06-16,"Volgograd, RUS",Russia,191.0,89.0,L,Edmonton Oilers,True,2017,3,84,Edmonton Oilers,dmitri-samorukov,,,,,2017,2020-06-03,Dmitri Samorukov,D,0.08,6,14.8
+516,347571,2001-01-18,"Mikkeli, FIN",Finland,181.0,90.0,L,Toronto Maple Leafs,False,2019,3,84,Toronto Maple Leafs,mikko-kokkonen,,,,,2019,2020-06-03,Mikko Kokkonen,D,0.09,29,4.1
+517,245621,1998-04-27,"Mississauga, ON, CAN",Canada,188.0,92.0,L,Edmonton Oilers,False,2016,3,84,Edmonton Oilers,matthew-cairns,,,,,2016,2020-06-03,Matthew Cairns,D,0.0,4,13.8
+518,166669,1998-05-05,"St. Albert, AB, CAN",Canada,183.0,87.0,L,Anaheim Ducks,True,2016,3,85,Anaheim Ducks,josh-mahura,,,,,2016,2020-06-03,Josh Mahura,D,0.19,3,24.6
+519,201450,1999-08-31,"Los Angeles, CA, USA",USA,183.0,88.0,R,Minnesota Wild,True,2017,3,85,Minnesota Wild,ivan-lodnia,,,,,2017,2020-06-03,Ivan Lodnia,F,0.13,6,19.3
+520,439814,2001-02-22,"Vancouver, BC, CAN",Canada,188.0,88.0,L,Vegas Golden Knights,False,2019,3,86,Vegas Golden Knights,layton-ahac,,,,,2019,2020-06-03,Layton Ahac,D,0.1,17,7.0
+521,339559,2000-04-12,"Saratov, RUS",Russia,180.0,90.0,L,Minnesota Wild,True,2018,3,86,Minnesota Wild,alexander-khovanov,,,,,2018,2020-06-03,Alexander Khovanov,F,0.37,10,75.0
+522,314906,1999-11-16,"Eksjö, SWE",Sweden,186.0,81.0,R,Vancouver Canucks,False,2018,3,87,San Jose Sharks,linus-karlsson,,,,,2018,2020-06-03,Linus Karlsson,F,0.03,7,25.4
+523,49041,1998-04-13,"Mineola, NY, USA",Canada                                                                                             /  USA,180.0,85.0,R,Washington Capitals,True,2016,3,87,Washington Capitals,garrett-pilon,,,,,2016,2020-06-03,Garrett Pilon,F,0.11,3,27.3
+524,514152,2001-06-26,"Yaroslavl, RUS",Russia,182.0,87.0,L,Calgary Flames,False,2019,3,88,Calgary Flames,ilya-nikolayev,,,,,2019,2020-06-03,Ilya Nikolayev,F,0.12,51,48.1
+525,201468,1999-07-02,"Chicago, IL, USA",USA,183.0,84.0,R,Carolina Hurricanes,True,2018,3,88,New York Rangers,joey-keane,,,,,2017,2020-06-03,Joey Keane,D,0.27,7,40.1
+526,240064,1998-05-10,"Norrtälje, SWE",Sweden,184.0,83.0,L,,,2016,3,89,Florida Panthers,linus-nassen,,,,,2016,2020-06-03,Linus Nässén,D,0.0,1,0.6
+527,201502,1999-02-11,"Tampa, FL, USA",USA,178.0,78.0,R,Florida Panthers,False,2018,3,89,Florida Panthers,logan-hutsko,,,,,2017,2020-06-03,Logan Hutsko,F,0.26,7,51.3
+528,372926,1999-07-02,"Tampere, FIN",Finland,188.0,75.0,R,Buffalo Sabres,False,2017,3,89,Buffalo Sabres,oskari-laaksonen,,,,,2017,2020-06-03,Oskari Laaksonen,D,0.04,9,13.0
+529,291308,2001-01-03,"Bratislava, SVK",Slovakia,182.0,86.0,R,Tampa Bay Lightning,False,2019,3,89,Tampa Bay Lightning,maxim-cajkovic,,,,,2019,2020-06-03,Maxim Cajkovic,F,0.26,21,95.0
+530,379749,1999-12-23,"Vladivostok, RUS",Russia,192.0,83.0,L,New York Rangers,True,2018,1,9,New York Rangers,vitali-kravtsov,,,,,2018,2020-06-03,Vitali Kravtsov,F,0.63,5,69.0
+531,424453,2001-03-20,"Bedford, NY, USA",USA,183.0,79.0,L,Anaheim Ducks,True,2019,1,9,Anaheim Ducks,trevor-zegras,,,,,2019,2020-06-03,Trevor Zegras,F,0.63,25,82.0
+532,286738,1999-04-17,"Vancouver, BC, CAN",Canada,197.0,100.0,L,Detroit Red Wings,True,2017,1,9,Detroit Red Wings,michael-rasmussen,,,,,2017,2020-06-03,Michael Rasmussen,F,0.74,6,76.4
+533,303599,1999-02-18,"Bristol, PA, USA",USA,183.0,86.0,L,Chicago Blackhawks,True,2017,3,90,Chicago Blackhawks,evan-barratt,,,,,2017,2020-06-03,Evan Barratt,F,0.13,7,28.9
+534,396119,2000-02-24,"Moskva, RUS",Russia,188.0,97.0,L,Tampa Bay Lightning,True,2018,3,90,Tampa Bay Lightning,dmitri-semykin,,,,,2018,2020-06-03,Dmitri Semykin,D,0.04,29,16.2
+535,424459,2001-09-07,"Thornwood, NY, USA",USA,171.0,68.0,L,Carolina Hurricanes,False,2019,3,90,Carolina Hurricanes,domenick-fensore,,,,,2019,2020-06-03,Domenick Fensore,D,0.16,17,39.8
+536,229589,1998-01-19,"Old Greenwich, CT, USA",USA,183.0,92.0,L,Anaheim Ducks,True,2017,3,91,Anaheim Ducks,jack-badini,,,,,2016,2020-06-03,Jack Badini,F,0.02,4,17.4
+537,517438,2001-01-06,"Vitebsk, BLR",Belarus,198.0,95.0,L,Washington Capitals,True,2019,3,91,Washington Capitals,alexei-protas,,,,,2019,2020-06-03,Alexei Protas,F,0.39,22,114.2
+538,322103,2001-05-09,"Calgary, AB, CAN",Canada,180.0,77.0,L,Boston Bruins,False,2019,3,92,Boston Bruins,quinn-olson,,,,,2019,2020-06-03,Quinn Olson,F,0.05,20,24.5
+539,269310,1999-06-23,"Victor, NY, USA",USA,180.0,86.0,L,Nashville Predators,False,2017,3,92,Nashville Predators,david-farrance,,,,,2017,2020-06-03,David Farrance,D,0.24,10,52.3
+540,283843,1999-06-26,"The Pas, MB, CAN",Canada,178.0,80.0,L,Minnesota Wild,True,2018,3,92,Minnesota Wild,connor-dewar,,,,,2017,2020-06-03,Connor Dewar,F,0.23,5,47.6
+541,353590,1999-09-09,"Edina, MN, USA",USA,180.0,83.0,L,Pittsburgh Penguins,False,2017,3,93,Pittsburgh Penguins,clayton-phillips,,,,,2017,2020-06-03,Clayton Phillips,D,0.02,6,10.4
+542,281307,1999-10-25,"Calgary, AB, CAN",Canada,191.0,95.0,R,Washington Capitals,True,2018,3,93,Washington Capitals,riley-sutter,,,,,2018,2020-06-03,Riley Sutter,F,0.18,5,34.9
+543,233512,1998-03-05,"Metamora, MI, USA",USA,188.0,89.0,L,Anaheim Ducks,True,2016,4,93,Anaheim Ducks,jack-kopacka,,,,,2016,2020-06-03,Jack Kopacka,F,0.06,3,36.9
+544,201705,1999-07-04,"Portage la Prairie, MB, CAN",Canada,180.0,87.0,R,Colorado Avalanche,True,2017,4,94,Colorado Avalanche,nick-henry,,,,,2017,2020-06-03,Nick Henry,F,0.18,5,40.8
+545,271642,2000-02-10,"Turnov, CZE",Czech Rep.,184.0,77.0,L,Buffalo Sabres,True,2018,4,94,Buffalo Sabres,matej-pekar,,,,,2018,2020-06-03,Matej Pekar,F,0.39,12,98.5
+546,287856,1999-06-02,-,Sweden,187.0,84.0,L,Ottawa Senators,False,2019,4,94,Ottawa Senators,viktor-lodin,,,,,2017,2020-06-03,Viktor Lodin,F,0.02,9,0.6
+547,320267,2001-02-24,"Sydney, AUS",Canada                                                                                             /  Japan,179.0,75.0,R,Los Angeles Kings,False,2019,4,95,Los Angeles Kings,jordan-spence,,,,,2019,2020-06-03,Jordan Spence,D,0.36,22,64.7
+548,276187,2000-05-04,"Rochester, MI, USA",USA,182.0,77.0,L,Ottawa Senators,True,2018,4,95,Ottawa Senators,jonathan-gruden,,,,,2018,2020-06-03,Jonathan Gruden,F,0.27,12,47.9
+549,311766,1999-05-20,"West Roxbury, MA, USA",USA,180.0,86.0,L,Vancouver Canucks,False,2017,4,95,Vancouver Canucks,jack-rathbone,,,,,2017,2020-06-03,Jack Rathbone,D,0.13,7,29.3
+550,201472,1999-07-12,"Oyster Bay, NY, USA",USA                                                                                             /  Canada,183.0,75.0,R,New Jersey Devils,False,2019,4,96,New Jersey Devils,tyce-thompson,,,,,2017,2020-06-03,Tyce Thompson,F,0.25,10,57.7
+551,266778,2000-04-29,"Dartmouth, NS, CAN",Canada,183.0,72.0,L,,,2018,4,96,Carolina Hurricanes,luke-henman,,,,,2018,2020-06-03,Luke Henman,F,0.41,11,60.6
+552,242668,1998-01-08,"Skellefteå, SWE",Sweden,182.0,75.0,L,,,2016,4,96,Calgary Flames,linus-lindstrom,,,,,2016,2020-06-03,Linus Lindström,F,0.05,4,15.6
+553,313532,2000-02-14,"Collingwood, ON, CAN",Canada,180.0,86.0,L,,,2018,4,97,Montréal Canadiens,allan-mcshane,,,,,2018,2020-06-03,Allan McShane,F,0.2,11,40.8
+554,162926,1998-11-03,"Lloydminster, AB, CAN",Canada,175.0,81.0,L,Minnesota Wild,True,2017,4,97,Minnesota Wild,mason-shaw,,,,,2017,2020-06-03,Mason Shaw,F,0.05,3,28.5
+555,305096,2001-05-07,"Dartmouth, NS, CAN",Canada,175.0,70.0,R,Detroit Red Wings,False,2019,4,97,Detroit Red Wings,ethan-phillips,,,,,2019,2020-06-03,Ethan Phillips,F,0.16,22,40.1
+556,169012,1998-01-30,"Helsingborg, SWE",Sweden,193.0,85.0,R,,,2016,4,97,Winnipeg Jets,jacob-cederholm,,,,,2016,2020-06-03,Jacob Cederholm,D,0.04,22,4.0
+557,312680,1998-11-20,"Moskva, RUS",Russia,197.0,98.0,R,New Jersey Devils,False,2017,4,98,New Jersey Devils,nikita-popugayev,,,,,2017,2020-06-03,Nikita Popugayev,F,0.02,9,2.2
+558,375953,2000-10-14,"Turku, FIN",Finland,180.0,75.0,L,Arizona Coyotes,True,2019,4,98,Arizona Coyotes,matias-maccelli,,,,,2019,2020-06-03,Matias Maccelli,F,0.14,17,39.4
+559,221513,1998-03-01,"Äänekoski, FIN",Finland,182.0,81.0,L,New York Rangers,True,2016,4,98,New York Rangers,tarmo-reunanen,,,,,2016,2020-06-03,Tarmo Reunanen,D,0.02,4,4.0
+560,276199,2000-03-21,"Southlake, TX, USA",USA,191.0,93.0,R,Detroit Red Wings,False,2018,4,98,Detroit Red Wings,ryan-o-reilly,,,,,2018,2020-06-03,Ryan O'Reilly,F,0.11,13,20.3
+561,354045,2000-04-04,"Cypress, CA, USA",USA,188.0,86.0,L,Chicago Blackhawks,False,2018,4,99,Vegas Golden Knights,slava-demin,,,,,2018,2020-06-03,Slava Demin,D,0.04,10,5.9
+562,233504,1998-03-25,"Ortonville, MI, USA",USA,185.0,84.0,L,Dallas Stars,True,,,,,ben-gleason,,,,,2016,2020-06-03,Ben Gleason,D,0.03,3,30.8
+563,148119,1998-10-04,"Hemer, GER",Germany,187.0,93.0,L,San Jose Sharks,True,,,,,lean-bergmann,,,,,2017,2020-06-03,Lean Bergmann,F,0.04,4,57.7
+564,308784,1998-03-20,"Kemerovo, RUS",Russia,190.0,92.0,L,San Jose Sharks,True,,,,,nikolai-knyzhov,,,,,2016,2020-06-03,Nikolai Knyzhov,D,0.02,4,23.5
+565,233503,1998-02-06,"Orange County, CA, USA",USA                                                                                             /  Canada,183.0,86.0,R,Vancouver Canucks,True,,,,,mitch-eliot,,,,,2016,2020-06-03,Mitch Eliot,D,0.02,4,21.1
+566,233499,1998-10-13,"Walnut Creek, CA, USA",USA,183.0,91.0,L,New York Rangers,True,,,,,patrick-khodorenko,,,,,2017,2020-06-03,Patrick Khodorenko,F,0.01,3,38.9
+567,296327,1998-01-26,"Rockford, MI, USA",USA,183.0,94.0,R,Minnesota Wild,True,,,,,mitchell-chaffee,,,,,2016,2020-06-03,Mitchell Chaffee,F,0.01,3,37.4
+568,272539,1998-03-17,"Orlando, FL, USA",USA,180.0,86.0,R,New York Rangers,True,,,,,justin-richards,,,,,2016,2020-06-03,Justin Richards,F,0.0,3,19.0
+569,247901,1998-02-19,"Duncan, BC, CAN",Canada,188.0,86.0,R,Vegas Golden Knights,True,,,,,dylan-coghlan,,,,,2016,2020-06-03,Dylan Coghlan,D,0.02,4,34.9
+570,201684,1999-05-02,"North Vancouver, BC, CAN",Canada,180.0,88.0,L,Pittsburgh Penguins,True,,,,,jordy-bellerive,,,,,2017,2020-06-03,Jordy Bellerive,F,0.03,10,27.1
+571,201561,1999-08-23,"Estevan, SK, CAN",Canada,183.0,91.0,R,Vegas Golden Knights,True,,,,,brayden-pachal,,,,,2017,2020-06-03,Brayden Pachal,D,0.04,10,23.9
+572,214331,1998-04-13,"Kolin, CZE",Czech Rep.,194.0,98.0,L,Dallas Stars,True,,,,,ondrej-vala,,,,,2016,2020-06-03,Ondrej Vala,D,0.02,11,40.5
+573,258162,1999-05-14,"Camrose, AB, CAN",Canada,183.0,84.0,L,Ottawa Senators,True,,,,,parker-kelly,,,,,2017,2020-06-03,Parker Kelly,F,0.02,9,15.9
+574,251448,1998-08-05,"Pembroke, ON, CAN",Canada,183.0,86.0,L,Dallas Stars,True,,,,,tye-felhaber,,,,,2016,2020-06-03,Tye Felhaber,F,0.03,3,37.8
+575,198405,1998-01-15,"Edmonton, AB, CAN",Canada,188.0,84.0,L,New Jersey Devils,True,,,,,colby-sissons,,,,,2016,2020-06-03,Colby Sissons,D,0.04,9,28.4
+576,319959,1999-10-25,"St-Nicolas, QC, CAN",Canada,191.0,91.0,L,New Jersey Devils,True,,,,,jeremy-groleau,,,,,2018,2020-06-03,Jérémy Groleau,D,0.03,10,19.8
+577,201256,1998-03-05,"Brandon, MB, CAN",Canada,180.0,85.0,L,Colorado Avalanche,True,,,,,ty-lewis,,,,,2016,2020-06-03,Ty Lewis,F,0.02,4,38.4
+578,199648,1998-12-31,"Calgary, AB, CAN",Canada,185.0,83.0,R,New York Rangers,True,,,,,jake-elmer,,,,,2017,2020-06-03,Jake Elmer,F,0.01,11,42.0
+579,241023,1997-10-17,"Winchester, ON, CAN",Canada,178.0,83.0,L,Montréal Canadiens,True,,,,,hayden-verbeek,,,,,2016,2020-06-03,Hayden Verbeek,F,0.02,4,21.0
+580,252473,1998-04-22,"Cambridge, ON, CAN",Canada,179.0,86.0,R,Nashville Predators,True,,,,,zach-magwood,,,,,2016,2020-06-03,Zach Magwood,F,0.04,10,34.6
+581,279121,1998-07-10,"Saskatoon, SK, CAN",Canada,185.0,87.0,R,Chicago Blackhawks,True,,,,,reese-johnson,,,,,2016,2020-06-03,Reese Johnson,F,0.02,4,20.1
+582,254891,1998-09-19,"Laval, QC, CAN",Canada,191.0,86.0,L,Anaheim Ducks,True,,,,,simon-benoit,,,,,2017,2020-06-03,Simon Benoît,D,0.02,4,28.9
+583,375738,2000-01-08,"Moskva, RUS",Russia,193.0,95.0,R,San Jose Sharks,True,,,,,vladislav-kotkov,,,,,2018,2020-06-03,Vladislav Kotkov,F,0.07,11,54.1
+584,199940,1997-11-27,"Nanaimo, BC, CAN",Canada,183.0,84.0,R,Florida Panthers,True,,,,,patrick-bajkov,,,,,2016,2020-06-03,Patrick Bajkov,F,0.02,4,40.8
+585,354151,1999-05-16,"Mascouche, QC, CAN",Canada,183.0,91.0,L,Ottawa Senators,True,,,,,jonathan-aspirot,,,,,2017,2020-06-03,Jonathan Aspirot,D,0.03,10,18.7
+586,201546,1999-03-11,"Repentigny, QC, CAN",Canada,183.0,92.0,L,Montréal Canadiens,True,,,,,joel-teasdale,,,,,2017,2020-06-03,Joël Teasdale,F,0.08,14,73.7
+587,297920,1999-09-12,"West Vancouver, BC, CAN",Canada,185.0,88.0,L,Columbus Blue Jackets,True,,,,,jake-christiansen,,,,,2017,2020-06-03,Jake Christiansen,D,0.12,10,37.2
+588,254885,1998-11-18,"Laval, QC, CAN",Canada,183.0,93.0,L,Tampa Bay Lightning,True,,,,,jimmy-huntington,,,,,2017,2020-06-03,Jimmy Huntington,F,0.03,3,34.8
+589,258628,1999-06-14,"Lloydminster, AB, CAN",Canada,185.0,84.0,R,Anaheim Ducks,True,,,,,bryce-kindopp,,,,,2017,2020-06-03,Bryce Kindopp,F,0.05,6,39.4
+590,398138,2000-03-30,"Chelyabinsk, RUS",Russia,191.0,80.0,L,Philadelphia Flyers,True,,,,,yegor-zamula,,,,,2018,2020-06-03,Yegor Zamula,D,0.1,15,103.7
+591,154069,1998-03-11,"Sherwood Park, AB, CAN",Canada,180.0,73.0,L,Buffalo Sabres,True,,,,,brandon-biro,,,,,2016,2020-06-03,Brandon Biro,F,0.0,3,36.8
+592,378129,1998-06-09,"Chatham, NJ, USA",USA,191.0,86.0,L,Pittsburgh Penguins,True,,,,,drew-o-connor,,,,,2016,2020-06-03,Drew O'Connor,F,0.0,3,38.3
+593,247246,1998-07-26,"Praha, CZE",Czech Rep.,188.0,88.0,L,Chicago Blackhawks,True,,,,,matej-chalupa,,,,,2016,2020-06-03,Matej Chalupa,F,0.0,3,37.1
